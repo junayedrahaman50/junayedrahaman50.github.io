@@ -6,16 +6,11 @@
 	                      0px 8px 13px rgba(0, 0, 0, 0.1),
 	                      0px 18px 23px rgba(0, 0, 0, 0.1);
 }
-body{
-background: #4e54c8;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #8f94fb, #4e54c8);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #8f94fb, #4e54c8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-}
 *{
 	font-family:Mina;
     font-weight: 600;
 }
-html{
+body,html{
 	height: 100%;
 }
  .btn-primary  {
@@ -47,6 +42,19 @@ color: crimson;
  .btn-danger:hover{
 	background:  rgb(0, 119, 255)!important;
 	color: 
+}
+.bg
+{
+	  /* The image used */
+  background-image: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full page/img(20).jpg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 
