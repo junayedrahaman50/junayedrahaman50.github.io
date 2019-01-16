@@ -1,24 +1,28 @@
-#content{
-	text-align: center;
-	padding-top: 20%;
-	color: white;
-	text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4),
-	                      0px 8px 13px rgba(0, 0, 0, 0.1),
-	                      0px 18px 23px rgba(0, 0, 0, 0.1);
-}
 *{
 font-family: 'Lilita One', cursive;
 }
 html{
 	height: 100%;
 }
- .btn-primary  {
-    background-color: crimson !important;
-    border: none !important;
+body
+{
+background: #0cebeb;  
+background: -webkit-linear-gradient(to right, #29ffc6, #20e3b2, #0cebeb);  
+background: linear-gradient(to right, #29ffc6, #20e3b2, #0cebeb); 
 }
- .btn-primary:hover{
-	background: darkred !important;
+
+#content{
+	text-align: center;
+	padding-top: 20%;
+	color: whitesmoke;
+	text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4),
+	                      0px 8px 13px rgba(0, 0, 0, 0.1),
+	                      0px 18px 23px rgba(0, 0, 0, 0.1);
 }
+#btn{
+    text-shadow: none;
+}
+
 .fa-meetup{
 color: #28b485;
 }
@@ -26,44 +30,28 @@ color: #28b485;
 color:#7ed56f;
 }
 .fa-user-plus{
-color: white;
+color: whitesmoke;
 }
 .fa-user{
-color: white;
+color: whitesmoke;
 }
 .fa-heart{
 color: crimson;
 }
  .btn-danger  {
-    background-color:dodgerblue !important;
-    border: none !important;
+    background-color:dodgerblue!important;
+    border:none !important;
+    border-radius: 2px !important;
+     transition: 0.3s !important;
+     margin-top: 20px !important;
 }
  .btn-danger:hover{
 	background:  rgb(0, 119, 255)!important;
-	color: 
+
+	color: lightcyan !important;
 }
-body
-{
-	  /* The image used */
-/*   background-image: url("image.jpg"); */
-
-  /* Full height */
-/*   height: 100%; */
-
-  /* Center and scale the image nicely */
-/*   background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover; */
-	background: #0cebeb;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #29ffc6, #20e3b2, #0cebeb);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #29ffc6, #20e3b2, #0cebeb); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+.navbar-brand{
+    color: whitesmoke !important;
 }
 
 
-
-/*Santorini Image*/
-/*http://amfblog.s3.amazonaws.com/wp-content/uploads/2015/07/Santorini-Greece-91.jpg*/
-
-/*https://3.bp.blogspot.com/-Jv8mAF48DOw/UmoXIDW_VmI/AAAAAAAAArY/RWh6Y7VXnWQ/s1600/metro_sunset-wide.jpg*/
- /*Image 2*/
-/*  https://www.grekomania.ru/images/places/cyclades/santorini/big/5216_Santorini-Blue-Colors.jpg */
