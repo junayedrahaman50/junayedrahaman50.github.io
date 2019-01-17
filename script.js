@@ -1,1 +1,5 @@
-// alert("Junayed Rahaman:working on this portfolio website it is not complete yet");
+setTimeout(function(){
+    $('h2').addClass("animated bounceIn");
+    $('h3').addClass("animate bounceIn");
+} , 500);
+
