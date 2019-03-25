@@ -4,6 +4,9 @@ font-family: 'Lilita One', cursive;
 html{
 	height: 100%;
 }
+h1{
+    color: #2d2d2d;
+}
 body
 {
 background: #0cebeb;  
@@ -21,6 +24,13 @@ background: linear-gradient(to right, #29ffc6, #20e3b2, #0cebeb);
 }
 #btn{
     text-shadow: none;
+}
+#container
+{
+    background-color: rgb(250,250,240);
+    box-shadow: 0 0 3px rgba(0,0,0,0.3);
+    padding: 12px;
+    
 }
 
 .fa-meetup{
@@ -49,9 +59,36 @@ color: crimson;
 	background:  rgb(0, 119, 255)!important;
 
 	color: lightcyan !important;
+} 
+.btn-info  {
+    background-color:dodgerblue !important;
+    border:none !important;
+    border-radius: 2px !important;
+     transition: 0.3s !important;
+     margin-top: 20px !important;
+     margin-left: 6px;
+     margin-right: 6px;
+}
+ .btn-info:hover{
+	background:  rgb(0, 119, 255)!important;
+
+	color: lightcyan !important;
 }
 .navbar-brand{
     color: whitesmoke !important;
 }
+.col-centered{
+    float: none !important;
+    margin:100px auto;
+}
+.fa-smile-wink,.fa-laugh-wink{
+    font-size: 25px;
+}
+.fa-quote-right,.fa-quote-left{
+    font-size: 25px;
+    margin: 0 10px;
+}
+
+
 
 
