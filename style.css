@@ -1,5 +1,5 @@
 *{
-font-family: 'Lalezar', cursive;
+font-family: 'chewy', cursive;
 }
 html{
 	height: 100%;
@@ -9,14 +9,13 @@ h1{
 }
 body
 {
-/* background: #f2709c;  /* fallback for old browsers */ 
-/* background: -webkit-linear-gradient(to right, #ff9472, #f2709c);  /* Chrome 10-25, Safari 5.1-6 */ 
-/* background: linear-gradient(to right, #ff9472, #f2709c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ 
-  background: url('Lighthouse.jpg') no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;	
+/*background: #f2709c;   fallback for old browsers */
+/*background: -webkit-linear-gradient(to right, #ff9472, #f2709c);   Chrome 10-25, Safari 5.1-6 */
+/*background: linear-gradient(to right, #f2709c, #ff9472);  W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+   background-image: url('https://source.unsplash.com/BtbjCFUvBXs/1920x1080');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 #content{
@@ -32,15 +31,21 @@ body
 }
 #container
 {
-    background-color:whitesmoke;
+    background-color: whitesmoke;
     box-shadow: 0 0 3px rgba(0,0,0,0.3);
     padding: 12px;
     
 }
+#linkz{
+    transition: 0.5s !important;
+}
+#linkz:hover{
+  color: #333333 !important;
+}
 
 .fa-meetup{
-color:#ff9472;
-transition:0.5s;
+color: #ff9472;
+transition: 0.5s;
 }
 .fa-meetup:hover{
 color:#f2709c;
@@ -60,7 +65,9 @@ color: crimson;
     border-radius: 2px !important;
      transition: 0.3s !important;
      margin-top: 20px !important;
-    box-shadow: 0 0 3px rgba(0,0,0,0.3) !important;
+     box-shadow: 0 0 3px rgba(0,0,0,0.3);
+     border-radius: 0px !important;
+     letter-spacing: 1px;
 }
  .btn-danger:hover{
 	background:  rgb(0, 119, 255)!important;
@@ -75,7 +82,9 @@ color: crimson;
      margin-top: 20px !important;
      margin-left: 6px;
      margin-right: 6px;
-     box-shadow: 0 0 3px rgba(0,0,0,0.3) !important;
+    box-shadow: 0 0 3px rgba(0,0,0,0.3);
+    border-radius: 0px !important;
+    letter-spacing: 1px;
 }
  .btn-info:hover{
 	background:  rgb(0, 119, 255)!important;
@@ -83,21 +92,26 @@ color: crimson;
 	color: lightcyan !important;
 }
 .navbar-brand{
-    color: whitesmoke !important;
+    color: #2d2d2d !important;
+    font-size: 1.8em !important;
+    margin-bottom: 10px !important;
+}
+.navbar-nav{
+    font-size: 1.6em;
+    margin-top: 3px !important;
 }
 .col-centered{
     float: none !important;
-    margin:30px auto;
+    margin:100px auto;
 }
-.fa-smile-wink,.fa-laugh-wink{
+.fa-smile-o{
     font-size: 25px;
-    color:#f2709c;
+    color: #f2709c;
+    font-weight: 600 !important;
 }
 .fa-quote-right,.fa-quote-left{
     font-size: 25px;
     margin: 0 10px;
 }
-
-
 
 
