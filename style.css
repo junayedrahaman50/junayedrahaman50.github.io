@@ -1,5 +1,6 @@
 *{
 font-family: 'chewy', cursive;
+letter-spacing:1px;
 }
 html{
 	height: 100%;
@@ -31,7 +32,7 @@ body
 }
 #container
 {
-    margin-top:0px !important;
+    margin-top:25px !important;
     background-color: whitesmoke;
     box-shadow: 0 0 3px rgba(0,0,0,0.3);
     padding: 12px;
@@ -39,6 +40,7 @@ body
 }
 #linkz{
     transition: 0.5s !important;
+    user-select:none;
 }
 #linkz:hover{
   color: #333333 !important;
@@ -68,7 +70,6 @@ color: crimson;
      margin-top: 20px !important;
      box-shadow: 0 0 3px rgba(0,0,0,0.3);
      border-radius: 0px !important;
-     letter-spacing: 1px;
 }
  .btn-danger:hover{
 	background:  rgb(0, 119, 255)!important;
@@ -85,7 +86,6 @@ color: crimson;
      margin-right: 6px;
     box-shadow: 0 0 3px rgba(0,0,0,0.3);
     border-radius: 0px !important;
-    letter-spacing: 1px;
 }
  .btn-info:hover{
 	background:  rgb(0, 119, 255)!important;
@@ -96,6 +96,7 @@ color: crimson;
     color: #2d2d2d !important;
     font-size: 1.8em !important;
     margin-bottom: 10px !important;
+    user-select: none;
 }
 .navbar-nav{
     font-size: 1.6em;
@@ -114,5 +115,11 @@ color: crimson;
     font-size: 25px;
     margin: 0 10px;
 }
+::selection{
+    color: whitesmoke;
+    background-color:#f2709c;
+/*    #ff9472 #f2709c*/
+}
+
 
 
