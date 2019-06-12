@@ -47,23 +47,14 @@ body
 }
 
 .fa-meetup{
-color: #ff9472;
+color: #00c6ff;
 transition: 0.5s;
 }
 .fa-meetup:hover{
-color:#f2709c;
-}
-.fa-user-plus{
-color: whitesmoke;
-}
-.fa-user{
-color: whitesmoke;
-}
-.fa-heart{
-color: crimson;
+color:#0072ff;
 }
  .btn-danger  {
-    background-color:dodgerblue!important;
+    background-color:#00c6ff !important;
     border:none !important;
     border-radius: 2px !important;
      transition: 0.3s !important;
@@ -72,12 +63,12 @@ color: crimson;
      border-radius: 0px !important;
 }
  .btn-danger:hover{
-	background:  rgb(0, 119, 255)!important;
+	background: #0072ff !important;
 
-	color: lightcyan !important;
+	color: ghostwhite !important;
 } 
 .btn-info  {
-    background-color:dodgerblue !important;
+    background-color:#00c6ff !important;
     border:none !important;
     border-radius: 2px !important;
      transition: 0.3s !important;
@@ -88,9 +79,9 @@ color: crimson;
     border-radius: 0px !important;
 }
  .btn-info:hover{
-	background:  rgb(0, 119, 255)!important;
+	background: #0072ff !important;
 
-	color: lightcyan !important;
+	color: ghostwhite !important;
 }
 .navbar-brand{
     color: #2d2d2d !important;
@@ -108,7 +99,7 @@ color: crimson;
 }
 .fa-smile-o{
     font-size: 25px;
-    color: #f2709c;
+    color: #0072ff;
     font-weight: 600 !important;
 }
 .fa-quote-right,.fa-quote-left{
@@ -117,9 +108,10 @@ color: crimson;
 }
 ::selection{
     color: whitesmoke;
-    background-color:#f2709c;
+    background-color:#00c6ff;
 /*    #ff9472 #f2709c*/
 }
+
 
 
 
