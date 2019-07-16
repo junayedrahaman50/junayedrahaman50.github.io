@@ -1,9 +1,19 @@
+#### Force HTTPS://WWW and remove trailing / from files ####
+## Turn on rewrite engine
 RewriteEngine on
+
+# Remove trailing slash from non-filepath urls
+RewriteCond %{REQUEST_URI} /(.+)/$
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteCond %{REQUEST_FILENAME}\.html -f
-RewriteRule ^(.*)$ $1.html [NC,L]
-## Remove trailing slash if not directory
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteCond %{REQUEST_URI} (.+)/$
-RewriteRule ^(.*)/$ https://junayedrahaman50.github.io/$1 [R=301,L]
+RewriteRule ^ https://junayedrahaman50.github.io/%1 [R=301,L]
+
+# Include trailing slash on directory 
+RewriteCond %{REQUEST_URI} !(.+)/$
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^(.+)$ https://junayedrahaman50.github.io/$1/ [R=301,L]
+
+# Force HTTPS and WWW 
+RewriteCond %{HTTP_HOST} !^www\.(.*)$ [OR,NC]
+RewriteCond %{https} off  
+RewriteRule ^(.*)$ https://junayedrahaman50.github.io/$1 [R=301,L]
 
