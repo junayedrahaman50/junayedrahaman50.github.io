@@ -7,7 +7,7 @@ body
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;*/
-background-color: whitesmoke;
+background-color: white;
 }
 #brand{
 	font-family: chewy;
@@ -35,7 +35,7 @@ background-color: whitesmoke;
    border: 0px solid white;
    border-radius: 0px;
    margin-bottom: 20px !important;
-   padding: 15px;
+   padding: 10px;
 }
 .navbar-expand-md{
    box-shadow: 0 0 7px rgba(0,0,0,0.1);	
