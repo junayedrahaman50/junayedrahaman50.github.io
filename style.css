@@ -7,7 +7,7 @@ body
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;*/
-background-color: white;
+background-color: whitesmoke;
 }
 #brand{
 	font-family: chewy;
@@ -61,14 +61,14 @@ color:#FF5F6D;
      transition: 0.3s !important;
      margin-top: 20px !important;
      border-radius: 0px !important;
-/*	 box-shadow: 0 0 5px rgba(0,198,255,0.5) !important;*/
+box-shadow: 0 0 3px rgba(0,0,0,0.4) !important;
      outline: none !important;
 }
 .btn-success:hover{
-    background:#00c6ff !important;
+    background:#0072ff !important;
 /*    #0072ff*/
 	color: ghostwhite !important;
-	box-shadow: 0 0 8px rgba(0,198,255,0.5) !important;
+	box-shadow: 0 0 3px rgba(0,0,0,0.4) !important;
 }
 .col-centered{
     float: none;
