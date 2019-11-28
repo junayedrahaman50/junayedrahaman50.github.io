@@ -26,10 +26,10 @@ body
 /*     #00c6ff*/
     background: linear-gradient(to right, #ff5e62 , #FE3E43);
     border:none !important;
-    border-radius: 2px !important;
+    border-radius: 3px !important;
      transition: 0.5s !important;
      margin-top: 15px !important;
-     border-radius: 0px !important;
+     
 	 box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.1) !important;
      outline: none !important;
      overflow: hidden !important;
@@ -66,10 +66,10 @@ body
 	 background-color:#007aff !important;
 /*     #00c6ff*/
     border:none !important;
-    border-radius: 2px !important;
+    border-radius: 3px !important;
      transition: 0.3s !important;
      margin-top: 10px !important;
-     border-radius: 0px !important;
+     
 	 box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.1) !important;
      outline: none !important;
      color: ghostwhite !important;
@@ -87,10 +87,10 @@ body
 /*     #00c6ff*/
     background: linear-gradient(to right, #ff9900, #FF8000);
     border:none !important;
-    border-radius: 2px !important;
+    border-radius: 3px !important;
      transition: 0.5s !important;
      margin-top: 15px !important;
-     border-radius: 0px !important;
+     
 	 box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.1) !important;
      outline: none !important;
 }
@@ -135,8 +135,8 @@ h2,h3{
 }
 */
 ul,p{
-	font-size: 18px;
-    font-family: 'Raleway', sans-serif;
+	font-size: 17px;
+    font-family: 'Merriweather', sans-serif;
     color: #2d2d2d;
 /*	font-family: literata;*/
 /*	font-weight: 600;*/
