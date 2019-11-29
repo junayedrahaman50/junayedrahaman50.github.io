@@ -30,7 +30,7 @@ body
      transition: 0.5s !important;
      margin-top: 15px !important;
      
-	 box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.1) !important;
+	 box-shadow:0 0 3px rgba(0,0,0,0.1) !important;
      outline: none !important;
      overflow: hidden !important;
 }
@@ -41,7 +41,7 @@ body
 	color: ghostwhite !important;
 /*	box-shadow:0px 5px 5px 0px rgba(255,94,98,0.5) !important;*/
 /*    transform: translatey(-5px);*/
-     box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.1) !important;
+     box-shadow:0 0 5px rgba(0,0,0,0.1) !important;
 }
 .myBtn{
 	font-family: Oswald;
@@ -70,13 +70,13 @@ body
      transition: 0.3s !important;
      margin-top: 10px !important;
      
-	 box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.1) !important;
+	 box-shadow:0 0 3px rgba(0,0,0,0.1) !important;
      outline: none !important;
      color: ghostwhite !important;
 }
 .btn-warning:hover{
     background-color:#007aff !important;
-    box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.2) !important;
+    box-shadow: 0 0 5px rgba(0,0,0,0.2) !important;
 /*    #0072ff*/
 /*	box-shadow: 0px 5px 5px 0px rgba(82,113,255,0.5) !important;*/
 /*    transform: translatey(-5px);*/
@@ -91,7 +91,7 @@ body
      transition: 0.5s !important;
      margin-top: 15px !important;
      
-	 box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.1) !important;
+	 box-shadow: 0 0 3px rgba(0,0,0,0.1) !important;
      outline: none !important;
 }
 .btn-danger:hover{
@@ -99,7 +99,7 @@ body
 /*    #0072ff*/
 	color: ghostwhite !important;
     background: linear-gradient(to right, #ff9900, #FF8000) !important;
-    box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.1) !important;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1) !important;
 /*
 	box-shadow: 0px 5px 5px 0px rgba(255,153,0,0.5) !important;
     transform: translatey(-5px);
@@ -135,11 +135,10 @@ h2,h3{
 }
 */
 ul,p{
-	font-size: 17px;
+     font-size: 17px;
+     letter-spacing:1px;
     font-family: 'Merriweather', sans-serif;
     color: #2d2d2d;
-/*	font-family: literata;*/
-/*	font-weight: 600;*/
 }
 html{
 scroll-behavior: smooth;
