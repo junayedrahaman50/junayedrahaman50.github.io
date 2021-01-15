@@ -1,0 +1,186 @@
+*{
+outline: none !important;
+}
+body
+{
+ padding-top: 70px;
+ background-color: whitesmoke;
+/*     background:linear-gradient(to right, rgb(5, 250, 225), rgb(29, 53, 226));*/
+}
+#box{
+   border: 0px solid white;
+   border-radius: 0px;
+   margin-bottom: 20px !important;
+   padding: 10px;
+/*   background-color: rgb(240,240,240);*/
+}
+#box2{
+   border: 0px solid white;
+   border-radius: 0px;
+   margin-bottom: 20px !important;
+   box-shadow: 0 0 3px rgba(0,0,0,0.2);
+/*   background-color: rgb(240,240,240);*/
+}
+.navbar-expand-md{
+   box-shadow: 0 0 7px rgba(0,0,0,0.1);	
+}
+.btn-success{
+	font-family: Oswald;
+/*	 background-color:#ff5e62 !important;*/
+/*     #00c6ff*/
+    background: linear-gradient(to right, #ff5e62 , #FE3E43);
+    border:none !important;
+    border-radius: 3px !important;
+     transition: 0.5s !important;
+     margin-top: 15px !important;
+     
+	 box-shadow:0 0 3px rgba(0,0,0,0.1) !important;
+     outline: none !important;
+     overflow: hidden !important;
+}
+.btn-success:hover{
+/*    background-color:#FE3E43 !important;*/
+       background: linear-gradient(to right, #ff5e62 , #FE3E43) !important;
+/*    #0072ff*/
+	color: ghostwhite !important;
+/*	box-shadow:0px 5px 5px 0px rgba(255,94,98,0.5) !important;*/
+/*    transform: translatey(-5px);*/
+     box-shadow:0 0 5px 2px rgba(0,0,0,0.1) !important;
+}
+.myBtn{
+	font-family: Oswald;
+    background-color:#ff9900;
+    color: ghostwhite;
+    border:none !important;
+    border-radius: 2px !important;
+     transition: 0.3s !important;
+     border-radius: 0px !important;
+     outline: none !important;
+    padding:5px;
+    width: 130px;
+    font-size: 20px;
+}
+.myBtn:hover{
+     background:#ff9900;
+	box-shadow: 0px 5px 5px 0px rgba(255,153,0,0.5) !important;
+    transform: translatey(-5px);   
+}
+.btn-warning{
+	font-family: Oswald;
+	 background-color:#007aff !important;
+/*     #00c6ff*/
+    border:none !important;
+    border-radius: 3px !important;
+     transition: 0.3s !important;
+     margin-top: 10px !important;
+     
+	 box-shadow:0 0 3px rgba(0,0,0,0.1) !important;
+     outline: none !important;
+     color: ghostwhite !important;
+}
+.btn-warning:hover{
+    background-color:#007aff !important;
+    box-shadow: 0 0 5px 2px rgba(0,0,0,0.1) !important;
+/*    #0072ff*/
+/*	box-shadow: 0px 5px 5px 0px rgba(82,113,255,0.5) !important;*/
+/*    transform: translatey(-5px);*/
+}
+.btn-danger{
+	font-family: Oswald;
+/*	 background-color:#ff9900 !important;*/
+/*     #00c6ff*/
+    background: linear-gradient(to right, #ff9900, #FF8000);
+    border:none !important;
+    border-radius: 3px !important;
+     transition: 0.5s !important;
+     margin-top: 15px !important;
+     
+	 box-shadow: 0 0 3px rgba(0,0,0,0.1) !important;
+     outline: none !important;
+}
+.btn-danger:hover{
+/*    background:#FF8000 !important;*/
+/*    #0072ff*/
+	color: ghostwhite !important;
+    background: linear-gradient(to right, #ff9900, #FF8000) !important;
+    box-shadow: 0 0 5px 2px rgba(0,0,0,0.1) !important;
+/*
+	box-shadow: 0px 5px 5px 0px rgba(255,153,0,0.5) !important;
+    transform: translatey(-5px);
+*/
+}
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
+.oswald{
+	font-family: oswald;
+	font-size: 23px;
+}
+h4 a{
+	transition: 0.5s;
+	font-weight: 400;
+    user-select: none;
+    font-family: oswald;
+    color:#2d2d2d !important;
+}
+h4 a:hover{
+	color: #5271ff !important;
+	text-decoration: none;
+}
+h1{
+	font-family: oswald;
+}
+/*
+h2,h3{
+	font-family: oswald;
+	color: #0072ff;
+	font-weight: bold;
+}
+*/
+ul,p{
+     font-size: 17px;
+     letter-spacing:1px;
+    font-family: 'Merriweather', sans-serif;
+    color: #2d2d2d;
+}
+html{
+scroll-behavior: smooth;
+}
+img,a{
+	user-select: none;
+}
+p a{
+	color: #007aff !important;
+/*    #FF5F6D #76b852 #8DC26F*/
+    font-weight: bold !important;
+}
+
+  .swiper-container {
+      width: 100%;
+      height: 100%;
+      outline:none !important;
+    }
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: whitesmoke;
+      /* Center slide text vertically */
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+    }
+::selection{
+	 color: #2d2d2d;
+     background-color: deepskyblue;
+}
+
