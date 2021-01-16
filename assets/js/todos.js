@@ -27,6 +27,16 @@ $('.fa-pencil-alt').on('click',function(){
    textItem.fadeToggle(100); 
 });
 
+var inputEmail = document.querySelector('#email');
+
+inputEmail.onkeyup = function(e) {
+    var max = 20; // The maxlength you want
+  
+    if(inputEmail.value.length > max) {
+      inputEmail.value = inputEmail.value.substring(0, max);
+    }
+  
+};
 
 
 
