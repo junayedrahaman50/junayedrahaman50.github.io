@@ -1,5 +1,5 @@
 *{
-font-family: 'Permanent Marker', sans-serif;
+font-family: 'Fredoka One', sans-serif;
 }
 /* html {
   background: url(../../Image/BG.jpg) no-repeat center center fixed;
@@ -18,7 +18,7 @@ body{
 h1{
     background-color: #2980b9;
     color: whitesmoke;
-    margin: 0;
+    margin: 0 !important;
     padding: 10px 20px;
     text-transform: uppercase;
     font-size: 25px;
@@ -27,8 +27,8 @@ h1{
 }
 ul{
     list-style: none;
-    margin: 0;
-    padding: 0;
+    margin: 0 !important;
+    padding: 0 !important;
 }
 li{
     background-color: #fff;
@@ -40,6 +40,7 @@ li:nth-of-type(2n){
     background-color: #f7f7f7;
 }
 input{
+    margin: 0;
     font-size: 20px;
     background-color: #f7f7f7;
     padding: 13px 13px 13px 20px;
@@ -68,13 +69,13 @@ li:hover span{
     width: 40px;
     opacity: 1.0;
 }
-
+.col-centered{
+    margin: 80px auto;
+    float: none;
+}
 #container
 {
     padding: 0;
-    float: none;
-    /*width: 300px;*/
-    margin: 80px auto;
     background-color: #f7f7f7;
     box-shadow: 0 0 3px rgba(0,0,0,0.3);
 }
