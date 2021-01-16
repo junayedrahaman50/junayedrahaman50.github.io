@@ -1,10 +1,12 @@
 *{
-    font-family: 'coiny';
+font-family: 'Permanent Marker', sans-serif;
 }
-body{
-background: #0cebeb;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #29ffc6, #20e3b2, #0cebeb);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #29ffc6, #20e3b2, #0cebeb); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+html {
+  background: url(../../Image/BG.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 h1{
     background-color: #2980b9;
@@ -62,8 +64,8 @@ li:hover span{
 
 #container
 {
-    width: 360px;
-    margin:100px auto;
+    width: 300px;
+    margin:80px auto;
     background-color: #f7f7f7;
     box-shadow: 0 0 3px rgba(0,0,0,0.3);
 }
@@ -76,19 +78,3 @@ li:hover span{
     float: right;
     padding-top: 5px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
