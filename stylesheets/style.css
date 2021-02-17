@@ -1,0 +1,26 @@
+#nav-link{
+  color: #eee !important;
+    font-family: 'chewy', sans-serif;
+    transition: 0.3s;
+}
+#nav-link:hover{
+ color: #63ffd9 !important;
+ text-decoration: underline;
+}
+.navbar-expand-md{
+   box-shadow: 0 0 7px rgba(0,0,0,0.3);
+}
+.navbar .nav-item {
+    font-size: 1.2rem;
+    padding-right: 20px;
+  }
+.navbar-toggler{
+    outline: none !important;
+}
+body{
+    background:url('../img/BG2.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
