@@ -17,8 +17,9 @@
 .navbar-toggler{
     outline: none !important;
 }
-body{
-    background:url('../img/BG2.jpg');
-   background-size: cover;
-  background-repeat: no-repeat;
+.page-holder{
+  min-height: 100vh;
+}
+.bg-cover{
+  background-size: cover !important;
 }
