@@ -18,9 +18,7 @@
     outline: none !important;
 }
 body{
-    background:url('../img/BG2.jpg') no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
+    background:url('../img/BG2.jpg');
+   background-size: cover;
+  background-repeat: no-repeat;
 }
