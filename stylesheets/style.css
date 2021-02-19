@@ -53,10 +53,11 @@
   font-family:'Oswald-Medium', sans-serif;
   border-radius: 0px !important;
   /* border: 2px solid #2d2d2d; */
+  border: 0px !important;
   background-color: #eee;
   color: #2d2d2d;
   box-shadow: 0 5px rgba(0,0,0,0.5) !important;
-  outline: none;
+  outline: none !important;
   transition: 0.3s;
   margin-top: 30px;
 }
