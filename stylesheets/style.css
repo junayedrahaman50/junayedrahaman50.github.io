@@ -10,6 +10,10 @@
   font-family: "open-sans";
   src: url("../fonts/OpenSans-Regular.ttf");
 }
+@font-face {
+  font-family: "open-sans-semibold";
+  src: url("../fonts/OpenSans-SemiBold.ttf");
+}
 #nav-link{
     color: #eee !important;
     font-family: 'from-beyond', sans-serif;
@@ -82,13 +86,69 @@ header.masthead .overlay {
   opacity: 0.5;
 }
 
-header.masthead .page-heading,
-header.masthead .post-heading,
 header.masthead .site-heading {
   padding: 200px 0 150px;
   color: white;
 }
-h1{
+@media only screen and (min-width: 768px) {
+  header.masthead .site-heading {
+    padding: 200px 0;
+  }
+}
+header.masthead .site-heading h1{
 font-family:'Oswald-Medium', sans-serif;
 text-shadow: 0 5px rgba(0,0,0,0.3);
+}
+
+.post-preview .post-title {
+  font-size: 30px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  font-family:'Oswald-Medium', sans-serif;
+}
+
+.post-preview .post-subtitle {
+  font-family: 'open-sans', sans-serif;
+  font-weight: 300;
+  margin: 0 0 10px;
+}
+footer {
+  padding: 50px 0 65px;
+}
+
+footer .list-inline {
+  margin: 0;
+  padding: 0;
+}
+
+footer .copyright {
+  font-size: 20px;
+  margin-bottom: 0;
+  text-align: center;
+  font-family: 'open-sans-semibold', sans-serif;
+  color: #212121 !important;
+  margin-top: 20px;
+}
+.fa-circle{
+  color: #212121;
+}
+.fa-github:hover{
+  color: #63ffd9 !important;
+}.fa-whatsapp:hover{
+  color: #63ffd9 !important;
+}.fa-envelope:hover{
+  color: #63ffd9 !important;
+}
+.fa-github, .fa-whatsapp, .fa-envelope{
+  font-size: 22px;
+  transition: 0.3s;
+}
+
+
+
+
+@media only screen and (min-width: 768px) {
+  .post-preview .post-title {
+    font-size: 36px;
+  }
 }
