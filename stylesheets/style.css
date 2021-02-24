@@ -19,7 +19,7 @@
     font-family: 'from-beyond', sans-serif;
     letter-spacing: 2px;
     transition: 0.3s;
-    text-shadow: 0 5px rgba(0,0,0,0.2);
+    text-shadow: 0 2px rgba(238,238,238,0.5);
 }
 #nav-link:hover{
  color: #63ffd9 !important;
@@ -31,12 +31,11 @@
   color: #63ffd9 !important;
 }
 .navbar-brand span{
-  text-shadow: 0 5px rgba(0,0,0,0.5);
+  text-shadow: 0 2px rgba(99,255,217,0.5);
 }
 .navbar-expand-md{
    box-shadow: 0 0 7px rgba(0,0,0,0.3);
-   background-color: #212121;
-   opacity: 0.8;
+   background-color: #212121;   
 }
 .navbar .nav-item {
     font-size: 1.2rem;
