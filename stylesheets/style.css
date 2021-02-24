@@ -44,7 +44,8 @@
 .navbar-toggler{
     outline: none !important;
     border-radius: 0px !important;
-    box-shadow: 0 3px rgba(0,0,0,0.3);
+    border: 2px solid rgba(0,0,0,0.5) !important;
+    box-shadow: 0 3px rgba(0,0,0,0.5);
 }
 .btn-outline-secondary{
   font-family:'from-beyond', sans-serif;
@@ -68,6 +69,7 @@
     box-shadow: 0 3px rgba(0,0,0,0.5) !important;
 }
 header.masthead {
+
   margin-bottom: 50px;
   background: no-repeat center center;
   background-color: #868e96;
@@ -87,17 +89,19 @@ header.masthead .overlay {
 }
 
 header.masthead .site-heading {
-  padding: 200px 0 150px;
+  height: 100vh;
+  padding: 170px 0 150px;
   color: white;
 }
 @media only screen and (min-width: 768px) {
   header.masthead .site-heading {
     padding: 200px 0;
+      
   }
 }
 header.masthead .site-heading h1{
-font-family:'Oswald-Medium', sans-serif;
-text-shadow: 0 5px rgba(0,0,0,0.3);
+font-family:'from-beyond', sans-serif;
+text-shadow: 0 3px rgba(0,0,0,0.3);
 }
 
 .post-preview .post-title {
