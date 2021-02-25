@@ -133,11 +133,12 @@ footer .copyright {
   text-align: center;
   font-family: 'open-sans-semibold', sans-serif;
   color: #212121 !important;
-  margin-top: 20px;
+  margin-top: 30px;
 }
 footer .copyright span{
-  color: #63ffd9;
   text-decoration: underline;
+  font-style: italic;
+  opacity: 0.8;
 }
 .fa-circle{
   color: #212121;
@@ -150,15 +151,23 @@ footer .copyright span{
   color: #63ffd9 !important;
 }
 .fa-github, .fa-whatsapp, .fa-envelope{
-  font-size: 22px;
+  font-size: 30px;
   transition: 0.3s;
 }
-
-
-
 
 @media only screen and (min-width: 768px) {
   .post-preview .post-title {
     font-size: 36px;
   }
+}
+::-moz-selection {
+  color: #212121;
+  background: #63ffd9;
+
+}
+
+::selection {
+  color: #212121;
+  background: #63ffd9;
+
 }
