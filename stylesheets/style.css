@@ -14,6 +14,10 @@
   font-family: "open-sans-semibold";
   src: url("../fonts/OpenSans-SemiBold.ttf");
 }
+
+.navbar-toggler-icon {
+    background-image: url('../img/hamburger.png') !important;
+}
 #nav-link{
     color: #eee !important;
     font-family: 'from-beyond', sans-serif;
@@ -23,7 +27,8 @@
 }
 #nav-link:hover{
  color: #63ffd9 !important;
- text-decoration: underline;
+/* text-decoration: underline;*/
+ text-shadow: 0 2px rgba(99,255,217,0.5);
 }
 .navbar-brand{
   font-family: 'from-beyond', sans-serif;
@@ -44,8 +49,8 @@
 .navbar-toggler{
     outline: none !important;
     border-radius: 0px !important;
-    border: 2px solid rgba(0,0,0,0.5) !important;
-    box-shadow: 0 3px rgba(0,0,0,0.5);
+    border: 2px solid rgba(0,0,0,1) !important;
+    box-shadow: 0 3px rgba(0,0,0,1);
 }
 .btn-outline-secondary{
   font-family:'from-beyond', sans-serif;
@@ -53,7 +58,7 @@
   border: 0px !important;
   background-color: #eee;
   color: #212121;
-  box-shadow: 0 5px rgba(0,0,0,0.5) !important;
+  box-shadow: 0 5px rgba(0,0,0,0.8) !important;
   outline: none !important;
   transition: 0.3s;
   margin-top: 30px;
@@ -62,7 +67,7 @@
 .btn-outline-secondary:hover{
    color: #212121 !important;
    background-color: #63ffd9 !important;
-   box-shadow: 0 5px rgba(0,0,0,0.5) !important;
+   box-shadow: 0 5px rgba(0,0,0,0.8) !important;
 }
 .btn-outline-secondary:active{
     transform: translateY(2px);
