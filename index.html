@@ -84,9 +84,14 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-8 col-md-10 mx-auto">
+        <div class="post-preview text-center" id="contact">
+            <h2 class="post-title">
+              Contact me
+            </h2>
+        </div>
           <ul class="list-inline text-center">
             <li class="list-inline-item">
-              <a href="#">
+              <a href="https://wa.me/918145486622" data-toggle="tooltip"  data-placement="bottom" title="Connect On Whatsapp">
                 <span class="fa-stack fa-2x">
                   <i class="fa fa-circle fa-stack-2x"></i>
                   <i class="fa fa-whatsapp fa-stack-1x fa-inverse"></i>
@@ -94,7 +99,7 @@
               </a>
             </li>
             <li class="list-inline-item">
-              <a href="mailto:junayedrahaman500@gmail.com">
+              <a href="mailto:junayedrahaman500@gmail.com" data-toggle="tooltip"  data-placement="bottom" title="Email Me">
                 <span class="fa-stack fa-2x">
                   <i class="fa fa-circle fa-stack-2x"></i>
                   <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
@@ -102,7 +107,7 @@
               </a>
             </li>
             <li class="list-inline-item">
-              <a href="https://github.com/junayedrahaman50">
+              <a href="https://github.com/junayedrahaman50" data-toggle="tooltip"  data-placement="bottom" title="Github">
                 <span class="fa-stack fa-2x">
                   <i class="fa fa-circle fa-stack-2x"></i>
                   <i class="fa fa-github fa-stack-1x fa-inverse"></i>
@@ -110,7 +115,7 @@
               </a>
             </li>
           </ul>
-          <p class="copyright text-muted">Copyright &copy; <span>junayedrahaman.github.io</span> 2021</p>
+          <p class="copyright">Copyright &copy; <span>junayedrahaman.github.io</span> 2021</p>
         </div>
       </div>
     </div>
@@ -120,5 +125,13 @@
   <script src="scripts/popper.min.js"></script>
   <script src="scripts/bootstrap.min.js"></script>
   <script src="scripts/scroller.js"></script>
+  <script>
+$(document).ready(function(){
+  $('[data-toggle="tooltip"]').tooltip();
+  $( ".navbar-toggler-icon" ).click( function() {
+    $(".navbar-toggler").toggleClass('flip');
+});   
+});
+</script>
 </body>
 </html>

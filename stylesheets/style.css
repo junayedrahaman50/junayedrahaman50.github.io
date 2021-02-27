@@ -16,7 +16,8 @@
 }
 
 .navbar-toggler-icon {
-    background-image: url('../img/hamburger.png') !important;
+    background-image: url('../img/chevron-circle-down-solid.svg') !important;
+    color: #eee !important;
 }
 #nav-link{
     color: #eee !important;
@@ -49,8 +50,10 @@
 .navbar-toggler{
     outline: none !important;
     border-radius: 0px !important;
-    border: 2px solid rgba(0,0,0,1) !important;
-    box-shadow: 0 3px rgba(0,0,0,1);
+    border: none;
+    transition: 0.5s;
+/*    border: 2px solid rgba(0,0,0,1) !important;
+    box-shadow: 0 3px rgba(0,0,0,1);*/
 }
 .btn-outline-secondary{
   font-family:'from-beyond', sans-serif;
@@ -137,13 +140,13 @@ footer .copyright {
   margin-bottom: 0;
   text-align: center;
   font-family: 'open-sans-semibold', sans-serif;
-  color: #212121 !important;
-  margin-top: 30px;
+  color: #212121;
+  margin-top: 60px;
 }
 footer .copyright span{
   text-decoration: underline;
   font-style: italic;
-  opacity: 0.8;
+  color: dimgray;
 }
 .fa-circle{
   color: #212121;
@@ -165,6 +168,11 @@ footer .copyright span{
     font-size: 36px;
   }
 }
+.tooltip{
+  font-family: 'oswald-medium', sans-serif;
+  text-shadow: none;
+}
+.flip { transform: rotate(-180deg);}
 ::-moz-selection {
   color: #212121;
   background: #63ffd9;
