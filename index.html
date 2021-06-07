@@ -38,7 +38,7 @@
     </div>
   </nav>
   <!-- Page Header -->
-  <header class="masthead" style="background-image: url('img/BG.jpg')">
+  <header class="masthead" data-type="background" data-speed="5" style="background: url('img/BG.jpg') 50% 0 repeat fixed;">
     <div class="overlay"></div>
     <div class="container">
       <div class="row">
@@ -46,7 +46,7 @@
           <div class="site-heading text-center">
             <h1>Hi, I'm Junayed. I design & build websites.</h1>
             <a href="#about-me" class="btn btn-outline-secondary btn-lg">
-          <i class="fa fa-arrow-right" aria-hidden="true"></i> Read More</a>     
+          <i class="fa fa-arrow-right" aria-hidden="true"></i> Read More</a>
           </div>
         </div>
       </div>
@@ -78,7 +78,7 @@
       </div>
     </div>
   </div>
-  
+
   <!-- Footer -->
   <footer id="contact">
     <div class="container">
@@ -125,12 +125,13 @@
   <script src="scripts/popper.min.js"></script>
   <script src="scripts/bootstrap.min.js"></script>
   <script src="scripts/scroller.js"></script>
+  <script src="scripts/main.js"></script>
   <script>
 $(document).ready(function(){
   $('[data-toggle="tooltip"]').tooltip();
   $( ".navbar-toggler-icon" ).click( function() {
     $(".navbar-toggler").toggleClass('flip');
-});   
+});
 });
 </script>
 </body>
