@@ -17,7 +17,9 @@
 body{
   background: url('../img/tile.jpg') top left repeat;
 }
-
+.navbar-toggler{
+  padding:0;
+}
 .navbar-toggler-icon {
     background-image: url('../img/chevron-circle-down-solid.svg') !important;
     color: #eee !important;
