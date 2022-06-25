@@ -43,7 +43,12 @@
     </div>
   </nav>
   <!-- Page Header -->
-  <header class="masthead" data-type="background" data-speed="5" style="background: url('img/BG.jpg') 50% 0 repeat fixed;">
+  <header class="masthead" style="
+  background: url('img/BG.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;">
     <div class="overlay"></div>
     <div class="container">
       <div class="row">
@@ -130,7 +135,7 @@
   <script src="scripts/popper.min.js"></script>
   <script src="scripts/bootstrap.min.js"></script>
   <script src="scripts/scroller.js"></script>
-  <script src="scripts/main.js"></script>
+  <!-- <script src="scripts/main.js"></script> -->
   <script>
 $(document).ready(function(){
   $('[data-toggle="tooltip"]').tooltip();
