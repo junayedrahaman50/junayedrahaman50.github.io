@@ -105,7 +105,6 @@ header.masthead .site-heading {
 @media only screen and (min-width: 768px) {
   header.masthead .site-heading {
     padding: 200px 0;
-      
   }
 }
 header.masthead .site-heading h1{
@@ -169,6 +168,13 @@ footer .copyright span{
     font-size: 36px;
   }
 }
+/* media query for landscape in mobile devices */
+@media(max-height:500px){
+  header.masthead .site-heading {
+    padding: 100px 0;
+  }
+}
+
 .tooltip{
   font-family: 'oswald-medium', sans-serif;
   text-shadow: none;
