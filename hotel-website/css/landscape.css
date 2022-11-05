@@ -1,0 +1,7 @@
+#showcase{
+  height: 100%;
+}
+#showcase .showcase-content{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}

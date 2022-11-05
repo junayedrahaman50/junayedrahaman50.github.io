@@ -1,0 +1,60 @@
+/* We are floating h1/.logo to left and ul to right set float to none */
+#navbar .logo{
+  float: none;
+  text-align: center;
+}
+#navbar ul, #navbar ul li{
+  float: none;
+}
+/* reduced padding to 5px all around */
+#navbar ul li a{
+  padding: 5px;
+  border-bottom: #444 dotted 1px;
+}
+/* Reducing font size of showcase h1 and padding top set to 50px */
+#showcase{
+  height: 100%;
+}
+#showcase .showcase-content{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+#showcase .showcase-content h1{
+  font-size: 3rem;
+}
+/* making the image disappear and making .info-content take full width of parent #home-info */
+/* Home info */
+#home-info .info-img{
+  display: none;
+}
+#home-info .info-content{
+  float: none;
+  width: 100%;
+}
+
+/* making .box utility class float none and take full width of parent */
+.box{
+  float: none;
+  width: 100%;
+}
+
+/* About page setting float none and making full width */
+#about-info .info-right,
+#about-info .info-left{
+  float: none;
+  width: 100%;
+}
+#about-info .info-right{
+  margin-top: 30px;
+}
+/* centering h1.l-heaing */
+.l-heading{
+  text-align: center;
+}
+
+#contact-info .box{
+  border-bottom: #444 dotted 1px;
+}
+ #testimonials h2{
+   line-height: 1.2em;
+ }
