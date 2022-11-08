@@ -14,9 +14,9 @@
   padding: 0;
   box-sizing: border-box;
 }
-html{
+/* html{
   scroll-behavior: smooth;
-}
+} */
 body{
    /* font-family: 'Yeseva One', cursive; */
    font-family: 'Rubik', sans-serif;

@@ -1,0 +1,64 @@
+/* Stack Items */
+
+#what .items{
+    display: block;
+    padding: 1rem;
+}
+
+
+
+/* Align icon to left */
+
+#what .items .item{
+    display: flex;
+    text-align: left;
+}
+
+/* Position Icon */
+#what .items .item i{
+    margin-right: 1.3rem;
+    align-self: center;
+    margin-bottom: 0;
+}
+
+/* Smartphone Media Query */
+@media(max-width: 500px) {
+    #navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+    #navbar .logo{
+        margin-bottom: 0.5rem;
+        text-align: center;
+    }
+
+    #navbar ul{
+        padding: 0.5rem;
+    }
+
+    #showcase .showcase-content {
+        top: 111.98px;
+        margin-top: -2rem;
+    }
+
+    #who{
+        display: block;
+    }
+    #who .who-img{
+        display: none;
+    }
+    #clients .items img{
+        width: 80%;
+    }
+    #clients .items div:first-child{
+        display: none;
+    }
+    #contact{
+        flex-direction: column;
+        height: 800px;
+    }
+    #contact #map{
+        border-top: 4px solid #333; 
+    }
+
+}
