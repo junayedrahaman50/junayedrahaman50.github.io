@@ -264,13 +264,13 @@ p{
 #contact .contact-form textarea{
   width: 100%;
   padding: 0.5rem;
+  font-family: 'Rubik', sans-serif;
+  font-weight: 500;
   border: 1px #ddd solid;
   border-radius: 5px;
 }
 #contact .contact-form textarea{
 height: 100px;
-font-family: 'Rubik', sans-serif;
-font-weight: 400;
 overflow: hidden;
 resize: none;
 }
