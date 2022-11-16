@@ -73,6 +73,10 @@ body{
    background-color: #63ffd9 !important;
    box-shadow: 0 5px rgba(0,0,0,0.8) !important;
 }
+.btn-outline-secondary:focus{
+  outline: none;
+  border: none;
+}
 .btn-outline-secondary:active{
     transform: translateY(2px);
     box-shadow: 0 3px rgba(0,0,0,0.5) !important;
@@ -127,7 +131,7 @@ text-shadow: 0 3px rgba(0,0,0,0.3);
   margin: 0 0 10px;
 }
 footer {
-  padding: 50px 0 65px;
+  padding: 0 0 65px;
 }
 
 footer .list-inline {
@@ -174,6 +178,26 @@ footer .copyright span{
     padding: 100px 0;
   }
 }
+/* portfolio */
+.project-list{
+  padding: 20px;
+}
+.project-list li{
+  list-style: none;
+  padding-bottom: 10px;
+  font-size: 20px;
+  font-family: 'open-sans', sans-serif;
+    font-weight: bold;
+    line-height: 1.2;
+    transition: 0.5s;
+}
+.project-list li a{
+  color: mediumseagreen;
+  background-color: transparent;
+  text-decoration: underline;
+
+}
+
 
 .tooltip{
   font-family: 'oswald-medium', sans-serif;
