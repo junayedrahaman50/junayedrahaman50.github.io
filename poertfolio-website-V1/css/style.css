@@ -1,0 +1,61 @@
+@font-face{
+  font-family: 'rocknroll_font';
+  src: url('../fonts/RocknRollOne-Regular.ttf');
+}
+@font-face{
+  font-family: 'passion_one_font';
+  src: url('../fonts/PassionOne-Regular.ttf');
+}
+#nav-link{
+    color: #0f1419 !important;
+    font-family: 'passion_one_font', sans-serif;
+ /*   letter-spacing: 2px;*/
+    transition: 0.3s;
+/*    text-shadow: 0 2px rgba(238,238,238,0.5);*/
+user-select: none;
+}
+#nav-link:hover{
+/*text-decoration: underline;*/
+/* text-decoration: underline;*/
+/* text-shadow: 0 2px #502ca7;*/
+color: #502ca7 !important;
+}
+.navbar-brand{
+  font-family: 'passion_one_font', sans-serif;
+  font-size: 1.8rem;
+  color: #0f1419 !important; 
+  user-select: none;
+  font-weight: normal !important;
+}
+.navbar-brand span{
+/*  text-shadow: 0 2px #502ca7;*/
+  color: #fff !important;
+  background-color: #7b4cff;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-bottom: 2px;
+  padding-top: 2px;
+  border: 2px solid #7b4cff;
+  border-radius: 3px;
+}
+.navbar-expand-md{
+   box-shadow: 0 0 7px rgba(0,0,0,0.3);
+    background-color: #fff;  
+}
+.navbar .nav-item {
+    font-size: 1.2rem;
+  }
+.navbar-toggler{
+    outline: none !important;
+    border-radius: 0px !important;
+    border: none;
+    transition: 0.5s;
+   border: 2px solid #0f1419 !important;
+  box-shadow: 0 3px #0f1419;
+}
+.navbar-toggler-icon {
+    background-image: url('../images/icons/bars-solid.svg') !important;
+}
+body{
+	background-color: #dae0e6;
+}

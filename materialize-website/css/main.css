@@ -1,0 +1,67 @@
+@font-face{
+  font-family: 'source-sans-normal';
+  src: url('../fonts/source-sans-pro/SourceSansPro-SemiBold.ttf');
+}
+@font-face{
+  font-family: 'Blueberry';
+  src: url('../fonts/Blueberry.ttf');
+}
+@font-face{
+  font-family: 'source-sans-bold';
+  src: url('../fonts/source-sans-pro/SourceSansPro-Bold.ttf');
+}
+#front-view{
+  height: 60vh;
+  background: url('../img/gridme.png') top left repeat;
+
+
+}
+h3{
+  padding-top: 30px;
+  font-family: 'source-sans-bold', Arial, Helvetica, sans-serif;
+  /* text-shadow: 2px 3px 3px rgba(0,0,0,0.3); */
+}
+
+h4{
+  font-size: 1.6rem;
+  font-family: 'source-sans-bold', Arial, Helvetica, sans-serif;
+  display: inline-block;
+  border-bottom: 3px solid white;
+}
+#caption{
+  font-size: 1.2rem;
+  opacity: 90%;
+}
+.sans{
+  font-family: 'source-sans-normal', sans-serif;
+}
+.heading{
+  font-family: 'source-sans-normal', sans-serif;
+}
+.myHeading{
+  font-size: 1.6rem;
+  font-family: 'source-sans-bold', Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  padding-top:30px;
+}
+.section-search input {
+  padding: 5px !important;
+  font-size: 18px !important;
+  width: 90% !important;
+  border: #f4f4f4 3px solid !important;
+  font-family: 'source-sans-normal', sans-serif !important;
+}
+
+.autocomplete-content {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  color: #212121 !important;
+  font-family: 'source-sans-normal', sans-serif !important;
+}
+.section-follow .fa-3x {
+  margin: 5px 10px;
+}
+.section-contact h5 {
+  margin-bottom: 30px;
+}
