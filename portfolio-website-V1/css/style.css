@@ -6,6 +6,10 @@
   font-family: 'passion_one_font';
   src: url('../fonts/PassionOne-Regular.ttf');
 }
+@font-face{
+  font-family: 'poppins';
+  src: url('../fonts/Poppins-SemiBold.ttf');
+}
 #nav-link{
     color: #0f1419 !important;
     font-family: 'passion_one_font', sans-serif;
@@ -56,6 +60,22 @@ color: #502ca7 !important;
 .navbar-toggler-icon {
     background-image: url('../images/icons/bars-solid.svg') !important;
 }
+.col-centered{
+  float: none !important;
+  margin: 0 auto !important;
+}
+
 body{
 	background-color: #dae0e6;
+  font-family: 'passion_one_font', sans-serif;
+  /* background-color: #F8FAFC; */
+}
+p{
+  font-family: 'ubuntu', sans-serif;
+}
+
+@media only screen and (max-width: 576px) {
+  .fa-user{
+    margin-left: 3px;
+  }
 }
