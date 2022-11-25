@@ -11,8 +11,36 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500;700&display=swap" rel="stylesheet">
 <script src="js/jquery.min.js"></script>
+
+<style>
+  #loader {
+      z-index: 5;
+      border: 12px solid #f3f3f3;
+      border-radius: 50%;
+      border-top: 12px solid #502ca7;
+      width: 70px;
+      height: 70px;
+      animation: spin 1s linear infinite;
+  }
+    
+  @keyframes spin {
+      100% {
+          transform: rotate(360deg);
+      }
+  }
+    
+  .center {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      margin: auto;
+  }
+</style>
 </head>
 <body>
+  <div id="loader" class="center"></div>
 	  <!-- navbar -->
   <nav class="navbar navbar-expand-md navbar-light">
     <div class="container">
@@ -48,7 +76,7 @@
         <h4 class="text-center">Hi friends 👋 —
           I'm Junayed Rahaman. I'm a Web Developer and Designer.</h4>
           <p class="text-center pt-3">On this site I will be posting web development and computer science stuff as well as books 📚 and sports ⚽ reviews.</p>
-          <p class="text-center pt-2">And over at Sunday Snippets - my weekly newsletter - I share actionable productivity tips and practical life advice. Sign up get updated with amazing contents 😄.</p>
+          <p class="text-center pt-2">And over at Sunday Snippets - my weekly newsletter - I share web development and productivity tips for developers. Sign up and get updated with amazing contents 😄.</p>
         </div>
       </div>
       </div>
@@ -57,5 +85,20 @@
 
 <script src="js/popper.min.js"></script>
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script>
+  document.onreadystatechange = function() {
+      if (document.readyState !== "complete") {
+          document.querySelector(
+            "body").style.visibility = "hidden";
+          document.querySelector(
+            "#loader").style.visibility = "visible";
+      } else {
+          document.querySelector(
+            "#loader").style.display = "none";
+          document.querySelector(
+            "body").style.visibility = "visible";
+      }
+  };
+</script>
 </body>
 </html>
