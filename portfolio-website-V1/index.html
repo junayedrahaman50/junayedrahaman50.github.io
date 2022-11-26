@@ -13,6 +13,12 @@
 <script src="js/jquery.min.js"></script>
 
 <style>
+  #loaderBG{
+    height: 100vh;
+    width: 100vw;
+    z-index: 2;
+    background-color: #dae0e6;
+  }
   #loader {
       z-index: 5;
       border: 12px solid #f3f3f3;
@@ -40,6 +46,7 @@
 </style>
 </head>
 <body>
+  <div id="loaderBG"></div>
   <div id="loader" class="center"></div>
 	  <!-- navbar -->
   <nav class="navbar navbar-expand-md navbar-light">
@@ -92,9 +99,13 @@
             "body").style.visibility = "hidden";
           document.querySelector(
             "#loader").style.visibility = "visible";
+          document.querySelector(
+            "#loaderBG").style.visibility = "visible";
       } else {
           document.querySelector(
             "#loader").style.display = "none";
+          document.querySelector(
+            "#loaderBG").style.display = "none";
           document.querySelector(
             "body").style.visibility = "visible";
       }
