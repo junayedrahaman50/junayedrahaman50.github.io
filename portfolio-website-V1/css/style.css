@@ -10,6 +10,10 @@
   font-family: 'poppins';
   src: url('../fonts/Poppins-SemiBold.ttf');
 }
+@font-face{
+  font-family: 'gloria';
+  src: url('../fonts/GloriaHallelujah-Regular.ttf');
+}
 #nav-link{
     color: #0f1419 !important;
     font-family: 'passion_one_font', sans-serif;
@@ -70,12 +74,60 @@ body{
   font-family: 'passion_one_font', sans-serif;
   /* background-color: #F8FAFC; */
 }
-p{
+p, h5, button{
   font-family: 'ubuntu', sans-serif;
+}
+.gloria{
+  font-family: 'gloria', cursive;
+}
+
+.myBtnBlue{
+  padding:5px 10px;
+  font-size: 16px;
+  display: inline-table;
+  background-color: dodgerblue;
+  border:none !important;
+  border-radius: 3px;
+  text-decoration: none;
+  transition: 0.5s;
+  outline: none !important;
+  cursor: pointer;
+  color: #fff !important;
+box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24) !important;
+}
+.myBtnBlue:hover{
+   text-decoration: none;
+ color: #fff !important;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24) !important;
+
+}
+.myBtnRed{
+  padding:5px 10px;
+  font-size: 16px;
+  display: inline-table;
+  background-color: crimson;
+  border:none !important;
+  border-radius: 3px;
+  text-decoration: none;
+  transition: 0.5s;
+  outline: none !important;
+  cursor: pointer;
+  color: #fff !important;
+box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24) !important;
+}
+.myBtnRed:hover{
+   text-decoration: none;
+ color: #fff !important;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24) !important;
+
 }
 
 @media only screen and (max-width: 576px) {
   .fa-user{
     margin-left: 3px;
   }
+  .myBtnBlue{
+    font-size: 14px;
+  }
 }
+
