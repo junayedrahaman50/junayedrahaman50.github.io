@@ -74,7 +74,7 @@ body{
   font-family: 'passion_one_font', sans-serif;
   /* background-color: #F8FAFC; */
 }
-p, h5, button{
+p, h5, button, a{
   font-family: 'ubuntu', sans-serif;
 }
 .gloria{
@@ -126,8 +126,9 @@ box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24) !important;
   .fa-user{
     margin-left: 3px;
   }
-  .myBtnBlue{
+  .myBtnBlue, .myBtnRed{
     font-size: 14px;
   }
+  
 }
 
