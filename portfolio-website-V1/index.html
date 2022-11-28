@@ -57,7 +57,7 @@
         Junayed Rahaman
       </a>
       <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav"><span class="navbar-toggler-icon"></span></button>
-      <div id="navbar" class="collapse navbar-collapse" id="navbarNav">
+      <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
             <a id="nav-link" href="#about" class="nav-link"><i class="fa fa-user"></i> About Me</a>
@@ -94,7 +94,7 @@
       <div class="row">
         <div class="col-md-8 col-centered">
         <div class="box" style="background-color:#fff !important;color:#0f1419 !important;border-radius:3px !important;padding: 20px;">
-          <h4 class="text-center gloria pb-4">{ Check out my projects <i class="fa fa-laptop" aria-hidden="true"></i> }</h4>
+          <h4 class="text-center gloria pb-4">{ Check out my projects }</h4>
           <div class="card my-3">
             <h5 class="card-header text-center">DailyPay</h5>
             <div class="card-body">
@@ -144,7 +144,7 @@
   };
 
   // Smooth Scrolling
-$('#navbar a').on('click', function(event) {
+$('ul li a').on('click', function(event) {
   if (this.hash !== '') {
     event.preventDefault();
 
