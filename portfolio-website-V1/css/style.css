@@ -26,7 +26,7 @@ user-select: none;
 /*text-decoration: underline;*/
 /* text-decoration: underline;*/
 /* text-shadow: 0 2px #502ca7;*/
-color: #502ca7 !important;
+color: dodgerblue !important;
 }
 .navbar-brand{
   font-family: 'passion_one_font', sans-serif;
@@ -38,12 +38,12 @@ color: #502ca7 !important;
 .navbar-brand span{
 /*  text-shadow: 0 2px #502ca7;*/
   color: #fff !important;
-  background-color: #7b4cff;
+  background-color: dodgerblue;
   padding-right: 10px;
   padding-left: 10px;
   padding-bottom: 2px;
   padding-top: 2px;
-  border: 2px solid #7b4cff;
+  border: 2px solid dodgerblue;
   border-radius: 3px;
 }
 .navbar-expand-md{
@@ -170,4 +170,8 @@ p{
   height: 48px;
   text-align: center;
   color: #fff;
+  transition: 0.3s;
+}
+.icons a i:hover{
+  color: rgb(29, 133, 236);
 }
