@@ -1,171 +1,190 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <meta name="theme-color" content="#212121">
   <meta name="author" content="Junayed Rahaman">
-  <!--open graph tags-->
-<meta property="og:image" content="img/thumbnail.png">
+    <!--open graph tags-->
+<meta property="og:image" content="images/thumbnail.png">
 <meta property="og:description" content="This is a personal portfolio website developed using html, css, javascript & bootstrap.">
 <meta property="og:title" content="Junayed Rahaman">
-  <meta name="google-site-verification" content="h8A82_IVcjKB5j9juuy411fYHUHC4Z9nFBIQl9K7CHM" />
-  <title>Junayed Rahaman - Web developer & Designer</title>
-  <link rel="stylesheet" href="stylesheets/font-awesome.min.css">
-  <link rel="stylesheet" href="stylesheets/bootstrap.min.css">
-  <link rel="stylesheet" href="stylesheets/style.css">
-    <link
-  rel="stylesheet"
-  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-/>
+  <meta name="google-site-verification" content="h8A82_IVcjKB5j9juuy411fYHUHC4Z9nFBIQl9K7CHM"/>
+	<title>Junayed Rahaman - Web Developer and Designer</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/ripple.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&family=Ubuntu:wght@400;500&display=swap" rel="stylesheet">
+<script src="js/jquery.min.js"></script>
+
+<style>
+  #loaderBG{
+    height: 100vh;
+    width: 100vw;
+    z-index: 2;
+    background-color: #dae0e6;
+  }
+  #loader {
+      z-index: 5;
+      border: 12px solid #f3f3f3;
+      border-radius: 50%;
+      border-top: 12px solid dodgerblue;
+      width: 70px;
+      height: 70px;
+      animation: spin 1s linear infinite;
+  }
+    
+  @keyframes spin {
+      100% {
+          transform: rotate(360deg);
+      }
+  }
+    
+  .center {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      margin: auto;
+  }
+</style>
 </head>
 <body>
-  <!-- navbar -->
+  <div id="loaderBG"></div>
+  <div id="loader" class="center"></div>
+	  <!-- navbar -->
   <nav class="navbar navbar-expand-md navbar-light">
     <div class="container">
       <a href="index.html" class="navbar-brand">
-        <span>JUNAYED RAHAMAN</span>
+        <span>JR</span>
+        Junayed Rahaman
       </a>
       <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav"><span class="navbar-toggler-icon"></span></button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a id="nav-link" href="index.html" class="nav-link">Home</a>
+            <a id="nav-link" href="#about" class="nav-link"><i class="fa fa-user"></i> About Me</a>
           </li>
           <li class="nav-item">
-            <a id="nav-link" href="#about-me" class="nav-link">About Me</a>
+            <a id="nav-link" href="#projects" class="nav-link"><i class="fa fa-code"></i> Projects</a>
+          </li>          
+
+          <li class="nav-item">
+            <a id="nav-link" href="#book" class="nav-link"><i class="fa fa-book"></i> Book Notes</a>
           </li>
           <li class="nav-item">
-            <a id="nav-link" href="#skills" class="nav-link">Skills</a>
-          </li>
-          <li class="nav-item">
-            <a id="nav-link" href="#contact" class="nav-link">Contact</a>
-          </li>
-          <li class="nav-item">
-            <a id="nav-link" href="#portfolio" class="nav-link">My Portfolio</a>
+            <a id="nav-link" href="#contact" class="nav-link"><i class="fa fa-commenting"></i> Contact</a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
-  <!-- Page Header -->
-  <header class="masthead" style="
-  background-image: url('img/BG.jpg');">
-    <div class="overlay"></div>
-    <div class="container">
+
+  <div class="container mt-3">
+    <div class="row">
+      <div class="col-lg-10 col-md-10 col-sm-12 col-centered">
+        
+        <div id="about" class="jumbotron" style="background-color:#fff !important;color:#0f1419 !important;border-radius:3px !important;"> 
+          <h4 class="text-center gloria py-2">{ About Me }</h4>
+        <h4 class="text-center ubuntu">Hi friends 👋 —
+          I'm Junayed Rahaman. I'm a Web Developer and Designer.</h4>
+          <p class="text-center pt-3 ubuntu">On this site I will be posting web development and computer science stuff as well as books 📚 and sports ⚽ reviews.</p>
+          <p class="text-center pt-2 ubuntu">And over at Sunday Snippets - my weekly newsletter - I share web development and productivity tips for developers. Sign up and get updated with amazing contents 😄.</p>
+        </div>
+      </div>
+      </div>
+    </div>
+
+    <div id="projects" class="container my-3">
       <div class="row">
-        <div class="col-lg-8 col-md-10 mx-auto">
-          <div class="site-heading text-center">
-            <h1 class="animate__animated animate__fadeInDown">Hi, I'm Junayed. I design & build websites.</h1>
-            <a href="#about-me" class="myButton">
-          <i class="fa fa-arrow-right" aria-hidden="true"></i> Read More</a>
+        <div class="col-lg-10 col-md-10 col-sm-12 col-centered">
+        <div class="box" style="background-color:#fff !important;color:#0f1419 !important;border-radius:3px !important;padding: 20px;">
+          <h4 class="text-center gloria pb-4">{ Check out my projects }</h4>
+          <div class="card my-3">
+            <h5 class="card-header text-center">DailyPay</h5>
+            <div class="card-body">
+              <h5 class="card-title">Budgeting App</h5>
+              <p style="color: dimgray;" class="card-text ubuntu">A Web App to keep track of budget and create transaction records.</p>
+              <a href="https://github.com/junayedrahaman50/DailyPay" class="myBtnBlue ripple ubuntu">Repository <i class="fa fa-code"></i> </a>
+                      <a href="https://sleepy-atoll-78261.herokuapp.com/" id="delete" class="myBtnRed ripple ml-2 ubuntu">Website <i class="fa fa-globe"></i> </a>
+            </div>
+          </div> 
+          <div class="card my-3">
+            <h5 class="card-header text-center">QuickBooks</h5>
+            <div class="card-body">
+              <h5 class="card-title">Accounting Firm Website</h5>
+              <p style="color: dimgray;" class="card-text ubuntu">Accounting firm concept website buil using flexbox</p>
+              <a href="https://github.com/junayedrahaman50/junayedrahaman50.github.io/tree/master/QuickBooks" class="myBtnBlue ripple ubuntu">Repository <i class="fa fa-code"></i> </a>
+                      <a href="https://junayedrahaman50.github.io/QuickBooks/" id="delete" class="myBtnRed ripple ml-2 ubuntu">Website <i class="fa fa-globe"></i> </a>
+            </div>
+          </div> 
+
+        </div>
+
+        
+      </div>
+      </div>
+    </div>
+
+    <div id="contact" class="container">
+      <div class="row">
+        <div class="col-lg-10 col-md-10 col-sm-12 col-centered">
+          <div class="box my-3" style="background-color:#fff !important;color:#0f1419 !important;border-radius:3px !important;padding: 20px;">
+            <h4 class="text-center gloria pb-4">{ Contact Me }</h4>
+            <div class="icons">
+              <a href="https://wa.me/918145486622" data-toggle="tooltip"  data-placement="bottom" title="Connect On Whatsapp"><i class="fa fa-whatsapp fa-3x"></i></a>
+              <a href="https://mail.google.com/mail/?view=cm&to=junayedrahaman500@gmail.com" data-toggle="tooltip"  data-placement="bottom" title="Email Me"><i class="fa fa-envelope fa-3x"></i></a>
+              <a  href="https://github.com/junayedrahaman50" data-toggle="tooltip"  data-placement="bottom" title="Github"><i class="fa fa-github fa-3x"></i></a>
+            </div>
+
+            <p class="text-center gloria pt-4"> Copyright &copy; junayedrahaman.github.io 2022 </p>
+          
           </div>
         </div>
       </div>
     </div>
-  </header>
-  <!-- Main Content -->
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-8 col-md-10 mx-auto">
-        <div class="post-preview" id="about-me">
-            <h2 class="post-title">
-              About Me
-            </h2>
-            <h4 class="post-subtitle">
-              I am a passionate web developer & designer with more than 3+ years of experience. I am a college student & currentnly studying at West Bengal State University (2020-2023).
-            </h4>
-        </div>
-        <hr>
-        <div class="post-preview" id="skills">
-            <h2 class="post-title">
-              Skills
-            </h2>
-            <h4 class="post-subtitle">
-              I can build awesome looking wordpress website with fast loading speeds.
-              I can create modern static & dynamic websites to fulfill your expectations & experienced in building high performing node web applications.
-            </h4>
-        </div>
-        <hr>
-      </div>
-    </div>
-  </div>
 
-<!-- My Portfolio -->
-<div id class="container">
-<div class="row">
-  <div class="col-lg-8 col-md-10 mx-auto">
-    <div class="post-preview text-center" id="portfolio">
-      <h2 class="post-title">
-        My Portfolio
-      </h2>
-  </div>
-  <ul class="project-list text-center">
-    <li> <a target="_blank" href="https://junayedrahaman50.github.io/hotel-website/">Hotel Website <i class="fa fa-external-link-square" aria-hidden="true"></i></a></li>
-    <li><a target="_blank" href="https://junayedrahaman50.github.io/QuickBooks/">Accounting Firm Website <i class="fa fa-external-link-square" aria-hidden="true"></i></a></li>
-    <li><a target="_blank" href="https://sleepy-atoll-78261.herokuapp.com/">DailyPay Money Management App <i class="fa fa-external-link-square" aria-hidden="true"></i></a></li>
-    <li><a target="_blank" href="https://swiggly.herokuapp.com/">Material Design Website <i class="fa fa-external-link-square" aria-hidden="true"></i></a></li>
-    <li><a target="_blank" href="https://enigmatic-ocean-08562.herokuapp.com/">HabitTracker App <i class="fa fa-external-link-square" aria-hidden="true"></i></a></li>
-  </ul>
-  <hr>
-    </div>
-</div>
-</div>
 
-  <!-- Footer -->
-  <footer id="contact">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8 col-md-10 mx-auto">
-        <div class="post-preview text-center" id="contact">
-            <h2 class="post-title">
-              Contact me
-            </h2>
-        </div>
-          <ul class="list-inline text-center">
-            <li class="list-inline-item">
-              <a href="https://wa.me/918145486622" data-toggle="tooltip"  data-placement="bottom" title="Connect On Whatsapp">
-                <span class="fa-stack fa-2x">
-                  <i class="fa fa-circle fa-stack-2x"></i>
-                  <i class="fa fa-whatsapp fa-stack-1x fa-inverse"></i>
-                </span>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a href="https://mail.google.com/mail/?view=cm&to=junayedrahaman500@gmail.com" data-toggle="tooltip"  data-placement="bottom" title="Email Me">
-                <span class="fa-stack fa-2x">
-                  <i class="fa fa-circle fa-stack-2x"></i>
-                  <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
-                </span>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a href="https://github.com/junayedrahaman50" data-toggle="tooltip"  data-placement="bottom" title="Github">
-                <span class="fa-stack fa-2x">
-                  <i class="fa fa-circle fa-stack-2x"></i>
-                  <i class="fa fa-github fa-stack-1x fa-inverse"></i>
-                </span>
-              </a>
-            </li>
-          </ul>
-          <p class="copyright">Copyright &copy; <span>junayedrahaman.github.io</span> 2022</p>
-        </div>
-      </div>
-    </div>
-  </footer>
-  <!-- scripts -->
-  <script src="scripts/jquery.min.js"></script>
-  <script src="scripts/popper.min.js"></script>
-  <script src="scripts/bootstrap.min.js"></script>
-  <script src="scripts/scroller.js"></script>
-  <!-- <script src="scripts/main.js"></script> -->
-  <script>
-$(document).ready(function(){
-  $('[data-toggle="tooltip"]').tooltip();
-  $( ".navbar-toggler-icon" ).click( function() {
-    $(".navbar-toggler").toggleClass('flip');
-});
+<script src="js/popper.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script>
+  document.onreadystatechange = function() {
+      if (document.readyState !== "complete") {
+          document.querySelector(
+            "body").style.visibility = "hidden";
+          document.querySelector(
+            "#loader").style.visibility = "visible";
+          document.querySelector(
+            "#loaderBG").style.visibility = "visible";
+      } else {
+          document.querySelector(
+            "#loader").style.display = "none";
+          document.querySelector(
+            "#loaderBG").style.display = "none";
+          document.querySelector(
+            "body").style.visibility = "visible";
+      }
+  };
+
+  // Smooth Scrolling
+$('ul li a').on('click', function(event) {
+  if (this.hash !== '') {
+    event.preventDefault();
+
+    const hash = this.hash;
+
+    $('html, body').animate(
+      {
+        scrollTop: $(hash).offset().top
+      },
+      800
+    );
+  }
 });
 </script>
 </body>
