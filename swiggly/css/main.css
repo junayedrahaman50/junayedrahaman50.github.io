@@ -1,0 +1,43 @@
+@font-face{
+  font-family: 'source-sans-normal';
+  src: url('../fonts/source-sans-pro/SourceSansPro-SemiBold.ttf');
+}
+@font-face{
+  font-family: 'Blueberry';
+  src: url('../fonts/Blueberry.ttf');
+}
+@font-face{
+  font-family: 'source-sans-bold';
+  src: url('../fonts/source-sans-pro/SourceSansPro-Bold.ttf');
+}
+h2{
+  font-family: 'Abril Fatface', sans-serif;
+  text-shadow: 2px 3px 3px rgba(0,0,0,0.3);
+}
+.sans{
+  font-family: 'source-sans-normal', sans-serif;
+}
+.heading{
+  font-family: 'Abril Fatface', sans-serif;
+}
+.section-search input {
+  padding: 5px !important;
+  font-size: 18px !important;
+  width: 90% !important;
+  border: #f4f4f4 3px solid !important;
+  font-family: 'source-sans-normal', sans-serif !important;
+}
+
+.autocomplete-content {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  color: #212121 !important;
+  font-family: 'source-sans-normal', sans-serif !important;
+}
+.section-follow .fa-3x {
+  margin: 5px 10px;
+}
+.section-contact h5 {
+  margin-bottom: 30px;
+}
