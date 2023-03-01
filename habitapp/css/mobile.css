@@ -5,7 +5,12 @@ html {
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
-
+#habitInput{
+    padding: 10px;
+}
+input{
+    font-size: 13px;
+  }
 h2 {
     font-size: 2rem;
 }

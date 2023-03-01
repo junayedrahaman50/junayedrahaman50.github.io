@@ -1,0 +1,202 @@
+@font-face{
+  font-family: 'rocknroll_font';
+  src: url('../fonts/RocknRollOne-Regular.ttf');
+}
+@font-face{
+  font-family: 'BlueBerry';
+  src: url('../fonts/Blueberry.otf');
+}
+@font-face{
+  font-family: 'passion_one_font';
+  src: url('../fonts/PassionOne-Regular.ttf');
+}
+@font-face{
+  font-family: 'poppins';
+  src: url('../fonts/Poppins-SemiBold.ttf');
+}
+@font-face{
+  font-family: 'gloria';
+  src: url('../fonts/GloriaHallelujah-Regular.ttf');
+}
+@font-face{
+  font-family: 'source-sans';
+  src: url('../fonts/SourceSansPro-Regular.ttf');
+}
+#nav-link{
+    color: #0f1419 !important;
+    font-family: 'passion_one_font', sans-serif;
+ /*   letter-spacing: 2px;*/
+    transition: 0.3s;
+/*    text-shadow: 0 2px rgba(238,238,238,0.5);*/
+user-select: none;
+}
+#nav-link:hover{
+/*text-decoration: underline;*/
+/* text-decoration: underline;*/
+/* text-shadow: 0 2px #502ca7;*/
+color: dodgerblue !important;
+}
+.navbar-brand{
+  font-family: 'BlueBerry', cursive;
+  font-size: 1.5rem;
+  color: #0f1419 !important; 
+  user-select: none;
+  font-weight: normal !important;
+  letter-spacing: 1px;
+}
+.navbar-brand span{
+/*  text-shadow: 0 2px #502ca7;*/
+  color: #fff !important;
+  background-color: dodgerblue;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-bottom: 2px;
+  padding-top: 2px;
+  border: 2px solid dodgerblue;
+  border-radius: 3px;
+}
+.navbar-expand-md{
+   box-shadow: 0 0 7px rgba(0,0,0,0.3);
+    background-color: #fff;  
+}
+.navbar .nav-item {
+    font-size: 1.2rem;
+  }
+.navbar-toggler{
+    outline: none !important;
+    border-radius: 0px !important;
+    border: none;
+    transition: 0.5s;
+   border: 2px solid #0f1419 !important;
+  box-shadow: 0 3px #0f1419;
+}
+.navbar-toggler-icon {
+    background-image: url('../images/icons/bars-solid.svg') !important;
+}
+.col-centered{
+  float: none !important;
+  margin: 0 auto !important;
+}
+
+body{
+	background-color: #dae0e6;
+  font-family: 'passion_one_font', sans-serif;
+  /* background-color: #F8FAFC; */
+}
+ h5, button, a{
+  font-family: 'ubuntu', sans-serif;
+}
+.gloria{
+  font-family: 'gloria', cursive;
+}
+.ubuntu{
+  font-family: 'ubuntu', sans-serif;
+  font-weight: 500;
+}
+.poppins{
+  font-family: 'source-sans', sans-serif;
+}
+
+.list-group li a{
+  text-decoration: none;
+  text-transform: none;
+  color: black;
+  transition: 0.3s;
+}
+.list-group li a:hover{
+color: dodgerblue;
+}
+.myBtnBlue{
+  padding:5px 10px;
+  font-size: 16px;
+  display: inline-table;
+  background-color: dodgerblue;
+  border:none !important;
+  border-radius: 3px;
+  text-decoration: none;
+  transition: 0.5s;
+  outline: none !important;
+  cursor: pointer;
+  color: #fff !important;
+box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24) !important;
+}
+.myBtnBlue:hover{
+   text-decoration: none;
+ color: #fff !important;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24) !important;
+
+}
+.myBtnRed{
+  padding:5px 10px;
+  font-size: 16px;
+  display: inline-table;
+  background-color: crimson;
+  border:none !important;
+  border-radius: 3px;
+  text-decoration: none;
+  transition: 0.5s;
+  outline: none !important;
+  cursor: pointer;
+  color: #fff !important;
+box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24) !important;
+}
+.myBtnRed:hover{
+   text-decoration: none;
+ color: #fff !important;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24) !important;
+
+}
+
+@media only screen and (max-width: 576px) {
+  .fa-user{
+    margin-left: 3px;
+  }
+  .myBtnBlue, .myBtnRed{
+    font-size: 18px;
+  }
+  /* .ubuntu{
+    font-weight: 400 !important;
+  } */
+  /* #about p{
+    font-size: 1rem;
+  } */
+  #contact p{
+    font-size: 0.9rem;
+  } 
+  .jumbotron {
+    padding: 1rem 1rem;
+  }
+}
+
+p{
+  font-size: 1.1rem;
+  color: dimgray;
+}
+.jumbotron{
+  margin-bottom: 20px;
+}
+.icons{
+  display: flex;
+  justify-content: center;
+}
+.icons a{
+  padding: 15px;
+  background-color: #2d2d2d;
+  border-radius: 50%;
+  margin: 0 10px;
+}
+.icons a i{
+  width: 48px;
+  height: 48px;
+  text-align: center;
+  color: #fff;
+  transition: 0.3s;
+}
+.icons a i:hover{
+  color: rgb(29, 133, 236);
+}
+@media (min-width: 576px){
+.jumbotron {
+    padding: 2rem 2rem;
+}
+}
