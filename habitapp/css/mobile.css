@@ -11,9 +11,6 @@ input {
 h2 {
   font-size: 2rem;
 }
-table tbody tr td {
-  font-size: 1.2rem;
-}
 .paper-btn,
 [type="button"],
 button {
