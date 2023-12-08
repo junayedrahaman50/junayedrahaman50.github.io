@@ -65,7 +65,7 @@ function handleResize() {
 }
 
 // handle resize is called when widow is resized
-window.addEventListener("resize", handleResize);
+// window.addEventListener("resize", handleResize);
 
 handleResize();
 handleRead();
