@@ -1,0 +1,170 @@
+/* ***************************** */
+/* BELOW 1312px (Smaller Desktops) */
+/* ***************************** */
+
+@media (max-width: 82em) {
+  .hero {
+    max-width: 120rem;
+  }
+
+  .heading-primary {
+    font-size: 5.2rem;
+  }
+}
+
+/* ***************************** */
+/* BELOW 1200px (Landscape Tablets) */
+/* ***************************** */
+
+@media (max-width: 75em) {
+  html {
+    /* 16px / 9px = 56.25% */
+    font-size: 56.25%;
+  }
+
+  .grid {
+    column-gap: 4.8rem;
+    row-gap: 6.4rem;
+  }
+  /* .heading-primary {
+    font-size: 4.4rem;
+  } */
+  .heading-secondary {
+    font-size: 3.6rem;
+  }
+  .heading-tertiary {
+    font-size: 2.4rem;
+  }
+  .header {
+    padding: 0 3.2rem;
+  }
+  .main-nav-list {
+    gap: 3.2rem;
+  }
+  .hero {
+    gap: 4.8rem;
+  }
+  .service-card {
+    padding: 2.4rem 3.2rem 3.2rem;
+  }
+}
+
+/* ***************************** */
+/* BELOW 1056px (Tablets) */
+/* ***************************** */
+@media (max-width: 66em) {
+  html {
+    /* 16px / 8px = 50% */
+    font-size: 50%;
+  }
+
+  .contact-form {
+    width: 80%;
+  }
+}
+
+@media (max-width: 59em) {
+  .hero {
+    height: calc(65vh - 9.6rem);
+  }
+  .heading-primary {
+    font-size: 4.4rem;
+  }
+  .grid-fix {
+    width: 80%;
+    /* grid-template-columns: 45fr 5fr 5fr 45fr; */
+    grid-template-columns: 1fr;
+    /* column-gap: 0; */
+    /* margin: 0 auto; */
+  }
+
+  .project-text-box:first-child {
+    /* grid-column: 1/4; */
+    /* margin-right: 3.2rem; */
+    grid-row: 2;
+    transform: translateY(-3.2rem);
+  }
+  .project-text-box:nth-child(4) {
+    /* grid-column: 2/-1; */
+    /* margin-left: 3.2rem; */
+    transform: translateY(-3.2rem);
+  }
+  .project-text-box:nth-child(5) {
+    /* grid-column: 1/4; */
+    /* margin-right: 3.2rem; */
+    grid-row: 6;
+    transform: translateY(-3.2rem);
+  }
+}
+
+/* ***************************** */
+/* BELOW 800px (Smaller Tablets) */
+/* ***************************** */
+@media (max-width: 50em) {
+  .hero-subheading {
+    font-size: 2.8rem;
+  }
+
+  .grid--3-cols {
+    grid-template-columns: 1fr;
+    width: 70%;
+  }
+  .heading-primary {
+    /* font-size: 3.6rem; */
+    margin-bottom: 4.8rem;
+  }
+  .heading-secondary {
+    margin-bottom: 4.8rem;
+  }
+  .copyright {
+    margin-top: 2.4rem;
+    line-height: 1.6;
+  }
+}
+
+/* ***************************** */
+/* BELOW 656px (Phones) */
+/* ***************************** */
+
+@media (max-width: 41em) {
+  /* .hero {
+    height: calc(60vh - 9.6rem);
+  } */
+  .heading-primary {
+    font-size: 3.6rem;
+    /* margin-bottom: 4.8rem; */
+  }
+  .hero-text-box {
+    padding: 0;
+  }
+  .grid--3-cols {
+    width: 90%;
+  }
+  .grid-fix {
+    width: 100%;
+  }
+  .contact-form {
+    width: 100%;
+  }
+  .copyright {
+    margin-top: 2.4rem;
+    font-size: 1.4rem;
+    line-height: 1.6;
+  }
+  .email-link:link,
+  .email-link:visited {
+    font-size: 1.4rem;
+  }
+  .service-card {
+    padding: 3.2rem;
+  }
+}
+
+@media (max-width: 32em) {
+  .contact-form {
+    grid-template-columns: 1fr;
+  }
+  .social-box {
+    transform: translateY(-6px);
+  }
+}
