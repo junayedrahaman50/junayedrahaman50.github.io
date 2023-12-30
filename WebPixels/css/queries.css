@@ -57,6 +57,9 @@
     /* 16px / 8px = 50% */
     font-size: 50%;
   }
+  .hero {
+    height: calc(65vh - 9.6rem);
+  }
 
   .contact-form {
     width: 80%;
@@ -64,9 +67,6 @@
 }
 
 @media (max-width: 59em) {
-  .hero {
-    height: calc(65vh - 9.6rem);
-  }
   .heading-primary {
     font-size: 4.4rem;
   }
@@ -95,6 +95,83 @@
     grid-row: 6;
     transform: translateY(-3.2rem);
   }
+
+  /* MOBILE NAVIGATION */
+  .btn-mobile-nav {
+    display: block;
+    z-index: 9999;
+  }
+
+  /* The class header parent element of .main-nav is positioned relative */
+  /* absolute positioning takes elements out of the flow */
+  .main-nav {
+    z-index: 100;
+    background-color: rgba(255, 255, 255, 0.9);
+    /* Blur everything that is behind this element */
+    /* Supported in safari using webkit prefix */
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    /* translating by 100% of its own width */
+    transform: translateX(100%);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* transition:property-to-animate duration type-of-animation */
+    /* By default transition type is linear */
+    /* Specifying transition curve */
+    /* ease-out: fast in beginnig, slows down later */
+    /* ease-in: fast in later, slows down in begining */
+    /* ease-in-out: fast in later, fast in begining, slows down in middle */
+
+    transition: all 0.5s ease-in;
+    /* Hide navigation */
+    /* Allows no transition at all */
+    /* display: none; */
+
+    /* Way of hiding element without using display none */
+    /* 1) Hide it visually */
+    opacity: 0;
+
+    /* With opacity set to 0 the links are accessible using tab */
+    /* 2) Make it unaccessible to mouse and keyboard */
+    pointer-events: none;
+
+    /* 3) Hide it from screenreaders */
+    visibility: hidden;
+  }
+
+  /* When there is nav-open class in header element this rule will apply */
+  .nav-open .main-nav {
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+    transform: translateX(0);
+  }
+
+  /* Activating close button when nav-open class is present on header */
+  .nav-open .icon-mobile-nav[name="close-outline"] {
+    display: block;
+  }
+  /* Hiding the menu-outline button on same condition */
+  .nav-open .icon-mobile-nav[name="menu-outline"] {
+    display: none;
+  }
+
+  .main-nav-list {
+    flex-direction: column-reverse;
+    gap: 4.8rem;
+  }
+
+  .main-nav-link:link,
+  .main-nav-link:visited {
+    font-size: 3rem;
+  }
 }
 
 /* ***************************** */
@@ -102,7 +179,7 @@
 /* ***************************** */
 @media (max-width: 50em) {
   .hero-subheading {
-    font-size: 2.8rem;
+    font-size: 2.4rem;
   }
 
   .grid--3-cols {
@@ -166,5 +243,18 @@
   }
   .social-box {
     transform: translateY(-6px);
+  }
+}
+
+@media (max-width: 24em) {
+  .heading-primary {
+    font-size: 3.3rem;
+  }
+}
+
+/* Landscape */
+@media (max-height: 31em) {
+  .hero {
+    height: calc(100vh - 9.6rem);
   }
 }
