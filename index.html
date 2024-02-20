@@ -1,34 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <meta name="theme-color" content="#212121">
   <meta name="author" content="Junayed Rahaman">
-    <!--open graph tags-->
-<meta property="og:image" content="images/thumbnail.png">
-<meta property="og:description" content="This is a personal portfolio website developed using html, css, javascript & bootstrap.">
-<meta property="og:title" content="Junayed Rahaman">
-  <meta name="google-site-verification" content="h8A82_IVcjKB5j9juuy411fYHUHC4Z9nFBIQl9K7CHM"/>
-	<title>Junayed Rahaman - Web Developer and Designer</title>
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
+  <!--open graph tags-->
+  <meta property="og:image" content="images/thumbnail.png">
+  <meta property="og:description"
+    content="This is a personal portfolio website developed using html, css, javascript & bootstrap.">
+  <meta property="og:title" content="Junayed Rahaman">
+  <meta name="google-site-verification" content="h8A82_IVcjKB5j9juuy411fYHUHC4Z9nFBIQl9K7CHM" />
+  <title>Junayed Rahaman - Web Developer and Designer</title>
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
   <link rel="stylesheet" href="css/font-awesome.min.css">
   <link rel="stylesheet" href="css/ripple.min.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&family=Ubuntu:wght@400;500&display=swap" rel="stylesheet">
-<script src="js/jquery.min.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <script src="js/jquery.min.js"></script>
 
-<style>
-  #loaderBG{
-    height: 100vh;
-    width: 100vw;
-    z-index: 2;
-    background-color: #dae0e6;
-  }
-  #loader {
+  <style>
+    #loaderBG {
+      height: 100vh;
+      width: 100vw;
+      z-index: 2;
+      background-color: #dae0e6;
+    }
+
+    #loader {
       z-index: 5;
       border: 12px solid #f3f3f3;
       border-radius: 50%;
@@ -36,35 +39,37 @@
       width: 70px;
       height: 70px;
       animation: spin 1s linear infinite;
-  }
-    
-  @keyframes spin {
+    }
+
+    @keyframes spin {
       100% {
-          transform: rotate(360deg);
+        transform: rotate(360deg);
       }
-  }
-    
-  .center {
+    }
+
+    .center {
       position: absolute;
       top: 0;
       bottom: 0;
       left: 0;
       right: 0;
       margin: auto;
-  }
-</style>
+    }
+  </style>
 </head>
+
 <body>
   <div id="loaderBG"></div>
   <div id="loader" class="center"></div>
-	  <!-- navbar -->
+  <!-- navbar -->
   <nav class="navbar navbar-expand-md navbar-light">
     <div class="container">
       <a href="index.html" class="navbar-brand">
         <span>JR</span>
         Junayed Rahaman
       </a>
-      <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav"><span class="navbar-toggler-icon"></span></button>
+      <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav"><span
+          class="navbar-toggler-icon"></span></button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
@@ -72,7 +77,7 @@
           </li>
           <li class="nav-item">
             <a id="nav-link" href="#projects" class="nav-link"><i class="fa fa-code"></i> Projects</a>
-          </li>          
+          </li>
 
           <li class="nav-item">
             <a id="nav-link" href="#book" class="nav-link"><i class="fa fa-book"></i> Book Notes</a>
@@ -88,104 +93,131 @@
   <div class="container mt-3">
     <div class="row">
       <div class="col-lg-10 col-md-10 col-sm-12 col-centered">
-        
-        <div id="about" class="jumbotron" style="background-color:#fff !important;color:#0f1419 !important;border-radius:3px !important;"> 
-          <h4 class="text-center gloria pt-2 pb-4">< About Me ></h4>
-        <h4 class="text-center ubuntu">Hi friends 👋 —
-          I'm Junayed Rahaman. I'm a Web Developer and Designer.</h4>
-          <p class="text-center pt-3 ubuntu">On this site I will be posting web development and computer science stuff as well as books 📚 and sports ⚽ reviews.</p>
-          <p class="text-center pt-2 ubuntu">And over at Sunday Snippets - my weekly newsletter - I share web development and productivity tips for developers. Sign up and get updated with amazing contents 😄.</p>
+
+        <div id="about" class="jumbotron"
+          style="background-color:#fff !important;color:#0f1419 !important;border-radius:3px !important;">
+          <h4 class="text-center  pt-2 pb-4"><span class="subheading">About Me</span></h4>
+          <h4 class="text-center ">Hi friends 👋 &mdash;
+            I'm Junayed Rahaman. I'm a Web Developer and Designer.</h4>
+          <p class="text-center pt-2" style="line-height: 1.6;">On this site I will be posting web development and
+            computer
+            science stuff and over at Sunday Snippets - my weekly newsletter - I share web
+            development and productivity tips for developers. Sign up and get updated with amazing contents 😄.
+            as well as books 📚 and sports ⚽ reviews.</p>
         </div>
       </div>
-      </div>
     </div>
+  </div>
 
-    <div id="projects" class="container my-3">
-      <div class="row">
-        <div class="col-lg-10 col-md-10 col-sm-12 col-centered">
-        <div class="box" style="background-color:#fff !important;color:#0f1419 !important;border-radius:3px !important;padding: 20px;">
-          <h4 class="text-center gloria pb-4">< Check out my projects ></h4>
+  <div id="projects" class="container my-3">
+    <div class="row">
+      <div class="col-lg-10 col-md-10 col-sm-12 col-centered">
+        <div class="box"
+          style="background-color:#fff !important;color:#0f1419 !important;border-radius:3px !important;padding: 20px;">
+          <h4 class="text-center  pb-4">
+            <span class="subheading">Check out my projects</span>
+          </h4>
           <div class="card my-3">
             <h5 class="card-header text-center">DailyPay</h5>
             <div class="card-body">
               <h5 class="card-title">Budgeting App</h5>
-              <p style="color: dimgray;" class="card-text ubuntu">A Web App to keep track of budget and create transaction records.</p>
-              <a href="https://github.com/junayedrahaman50/DailyPay" class="myBtnBlue ripple ubuntu">Repository <i class="fa fa-code"></i> </a>
-                      <a href="https://sleepy-atoll-78261.herokuapp.com/" id="delete" class="myBtnRed ripple ml-2 ubuntu">Website <i class="fa fa-globe"></i> </a>
+              <p style="color: dimgray;" class="card-text">A Web App to keep track of budget and create
+                transaction records.</p>
+              <a href="https://github.com/junayedrahaman50/DailyPay" class="myBtnBlue ripple ">Repository
+                <i class="fa fa-code"></i> </a>
+              <a href="https://sleepy-atoll-78261.herokuapp.com/" id="delete" class="myBtnRed ripple ml-2 ">Website <i
+                  class="fa fa-globe"></i> </a>
             </div>
-          </div> 
+          </div>
           <div class="card my-3">
             <h5 class="card-header text-center">QuickBooks</h5>
             <div class="card-body">
               <h5 class="card-title">Accounting Firm Website</h5>
-              <p style="color: dimgray;" class="card-text ubuntu">Accounting firm concept website buil using flexbox</p>
-              <a href="https://github.com/junayedrahaman50/junayedrahaman50.github.io/tree/master/QuickBooks" class="myBtnBlue ripple ubuntu">Repository <i class="fa fa-code"></i> </a>
-                      <a href="https://junayedrahaman50.github.io/QuickBooks/" id="delete" class="myBtnRed ripple ml-2 ubuntu">Website <i class="fa fa-globe"></i> </a>
+              <p style="color: dimgray;" class="card-text">Accounting firm concept landing page build
+                using
+                flexbox.</p>
+              <a href="https://github.com/junayedrahaman50/junayedrahaman50.github.io/tree/master/QuickBooks"
+                class="myBtnBlue ripple ">Repository <i class="fa fa-code"></i> </a>
+              <a href="https://junayedrahaman50.github.io/QuickBooks/" id="delete" class="myBtnRed ripple ml-2 ">Website
+                <i class="fa fa-globe"></i> </a>
             </div>
-          </div> 
-
-        </div>
-
-        
-      </div>
-      </div>
-    </div>
-
-    <div id="contact" class="container">
-      <div class="row">
-        <div class="col-lg-10 col-md-10 col-sm-12 col-centered">
-          <div class="box my-3" style="background-color:#fff !important;color:#0f1419 !important;border-radius:3px !important;padding: 20px;">
-            <h4 class="text-center gloria pb-4">< Contact Me ></h4>
-            <div class="icons">
-              <a href="https://wa.me/918145486622" data-toggle="tooltip"  data-placement="bottom" title="Connect On Whatsapp"><i class="fa fa-whatsapp fa-3x"></i></a>
-              <a href="https://mail.google.com/mail/?view=cm&to=junayedrahaman500@gmail.com" data-toggle="tooltip"  data-placement="bottom" title="Email Me"><i class="fa fa-envelope fa-3x"></i></a>
-              <a  href="https://github.com/junayedrahaman50" data-toggle="tooltip"  data-placement="bottom" title="Github"><i class="fa fa-github fa-3x"></i></a>
-            </div>
-
-            <p class="text-center gloria pt-4"> Copyright &copy; junayedrahaman.github.io 2022 </p>
-          
           </div>
+
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+
+  <div id="contact" class="container">
+    <div class="row">
+      <div class="col-lg-10 col-md-10 col-sm-12 col-centered">
+        <div class="box my-3"
+          style="background-color:#fff !important;color:#0f1419 !important;border-radius:3px !important;padding: 20px;">
+          <h4 class="text-center  pb-4">
+            <span class="subheading">Contact Me</span>
+          </h4>
+          <div class="icons">
+            <!-- <a href="https://wa.me/918145486622" data-toggle="tooltip" data-placement="bottom"
+              title="Connect On Whatsapp"><i class="fa fa-whatsapp fa-3x"></i></a> -->
+            <a href="https://www.linkedin.com/in/junayedrahaman500/" data-toggle="tooltip" data-placement="bottom"
+              title="Connect On Linkedin"><i class="fa fa-linkedin fa-3x"></i></a>
+            <a href="https://mail.google.com/mail/?view=cm&to=junayedrahaman500@gmail.com" data-toggle="tooltip"
+              data-placement="bottom" title="Email Me"><i class="fa fa-envelope fa-3x"></i></a>
+            <a href="https://github.com/junayedrahaman50" data-toggle="tooltip" data-placement="bottom"
+              title="Github"><i class="fa fa-github fa-3x"></i></a>
+          </div>
+
+          <p class="text-center  pt-4"> Copyright &copy; junayedrahaman.github.io <span class="current-year"></span></p>
+
         </div>
       </div>
     </div>
+  </div>
 
 
-<script src="js/popper.min.js"></script>
-<script type="text/javascript" src="js/bootstrap.min.js"></script>
-<script>
-  document.onreadystatechange = function() {
+  <script src="js/popper.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <script>
+    // Set current year
+    document.querySelector(".current-year").textContent = new Date().getFullYear();
+
+    // loader
+    document.onreadystatechange = function () {
       if (document.readyState !== "complete") {
-          document.querySelector(
-            "body").style.visibility = "hidden";
-          document.querySelector(
-            "#loader").style.visibility = "visible";
-          document.querySelector(
-            "#loaderBG").style.visibility = "visible";
+        document.querySelector(
+          "body").style.visibility = "hidden";
+        document.querySelector(
+          "#loader").style.visibility = "visible";
+        document.querySelector(
+          "#loaderBG").style.visibility = "visible";
       } else {
-          document.querySelector(
-            "#loader").style.display = "none";
-          document.querySelector(
-            "#loaderBG").style.display = "none";
-          document.querySelector(
-            "body").style.visibility = "visible";
+        document.querySelector(
+          "#loader").style.display = "none";
+        document.querySelector(
+          "#loaderBG").style.display = "none";
+        document.querySelector(
+          "body").style.visibility = "visible";
       }
-  };
+    };
 
-  // Smooth Scrolling
-$('ul li a').on('click', function(event) {
-  if (this.hash !== '') {
-    event.preventDefault();
+    // Smooth Scrolling
+    $('ul li a').on('click', function (event) {
+      if (this.hash !== '') {
+        event.preventDefault();
 
-    const hash = this.hash;
+        const hash = this.hash;
 
-    $('html, body').animate(
-      {
-        scrollTop: $(hash).offset().top
-      },
-      800
-    );
-  }
-});
-</script>
+        $('html, body').animate(
+          {
+            scrollTop: $(hash).offset().top
+          },
+          800
+        );
+      }
+    });
+  </script>
 </body>
+
 </html>

@@ -1,185 +1,193 @@
-@font-face{
-  font-family: 'rocknroll_font';
-  src: url('../fonts/RocknRollOne-Regular.ttf');
+@font-face {
+  font-family: "passion_one_font";
+  src: url("../fonts/PassionOne-Regular.ttf");
 }
-@font-face{
-  font-family: 'passion_one_font';
-  src: url('../fonts/PassionOne-Regular.ttf');
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
-@font-face{
-  font-family: 'poppins';
-  src: url('../fonts/Poppins-SemiBold.ttf');
+
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
 }
-@font-face{
-  font-family: 'gloria';
-  src: url('../fonts/GloriaHallelujah-Regular.ttf');
+
+#nav-link {
+  color: #0f1419 !important;
+  font-family: "passion_one_font", sans-serif;
+  /*   letter-spacing: 2px;*/
+  transition: 0.3s;
+  /*    text-shadow: 0 2px rgba(238,238,238,0.5);*/
+  user-select: none;
 }
-#nav-link{
-    color: #0f1419 !important;
-    font-family: 'passion_one_font', sans-serif;
- /*   letter-spacing: 2px;*/
-    transition: 0.3s;
-/*    text-shadow: 0 2px rgba(238,238,238,0.5);*/
-user-select: none;
+#nav-link:hover {
+  color: #1e90ff !important;
 }
-#nav-link:hover{
-/*text-decoration: underline;*/
-/* text-decoration: underline;*/
-/* text-shadow: 0 2px #502ca7;*/
-color: dodgerblue !important;
-}
-.navbar-brand{
-  font-family: 'passion_one_font', sans-serif;
+.navbar-brand {
+  font-family: "passion_one_font", sans-serif;
   font-size: 1.8rem;
-  color: #0f1419 !important; 
+  color: #0f1419 !important;
   user-select: none;
   font-weight: normal !important;
 }
-.navbar-brand span{
-/*  text-shadow: 0 2px #502ca7;*/
+.navbar-brand span {
   color: #fff !important;
-  background-color: dodgerblue;
+  background-color: #1e90ff;
   padding-right: 10px;
   padding-left: 10px;
   padding-bottom: 2px;
   padding-top: 2px;
-  border: 2px solid dodgerblue;
+  border: 2px solid #1e90ff;
   border-radius: 3px;
 }
-.navbar-expand-md{
-   box-shadow: 0 0 7px rgba(0,0,0,0.3);
-    background-color: #fff;  
+.navbar-expand-md {
+  box-shadow: 0 0 7px rgba(0, 0, 0, 0.3);
+  background-color: #fff;
 }
 .navbar .nav-item {
-    font-size: 1.2rem;
-  }
-.navbar-toggler{
-    outline: none !important;
-    border-radius: 0px !important;
-    border: none;
-    transition: 0.5s;
-   border: 2px solid #0f1419 !important;
+  font-size: 1.2rem;
+}
+.navbar-toggler {
+  outline: none !important;
+  border-radius: 0px !important;
+  border: none;
+  transition: 0.5s;
+  border: 2px solid #0f1419 !important;
   box-shadow: 0 3px #0f1419;
 }
 .navbar-toggler-icon {
-    background-image: url('../images/icons/bars-solid.svg') !important;
+  background-image: url("../images/icons/bars-solid.svg") !important;
 }
-.col-centered{
+.col-centered {
   float: none !important;
   margin: 0 auto !important;
 }
 
-body{
-	background-color: #dae0e6;
-  font-family: 'passion_one_font', sans-serif;
-  /* background-color: #F8FAFC; */
-}
-p, h5, button, a{
-  font-family: 'ubuntu', sans-serif;
-}
-.gloria{
-  font-family: 'gloria', cursive;
-}
-.ubuntu{
-  font-family: 'ubuntu', sans-serif;
-  font-weight: 500;
-}
-.source-sans{
-  font-family: 'Source Sans Pro', sans-serif;
+body {
+  background-color: #dee2e6;
+  font-family: "Poppins", sans-serif;
   font-weight: 400;
+  font-style: normal;
 }
 
-.myBtnBlue{
-  padding:5px 10px;
+h4 {
+  font-family: "passion_one_font";
+}
+
+h5 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+.subheading {
+  position: relative;
+}
+.subheading::after {
+  position: absolute;
+  /* opacity: 60%; */
+  bottom: 0%;
+  left: 50%;
+  transform: translateX(-50%);
+  content: "";
+  width: 100%;
+  height: 5%;
+  /* background-color: #0d80f4; */
+  /* background-color: #1e90ff; */
+  background-color: #ced4da;
+  /* background-color: #f3f3f3; */
+}
+#about h4:nth-child(2) {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.myBtnBlue {
+  padding: 5px 10px;
   font-size: 16px;
   display: inline-table;
-  background-color: dodgerblue;
-  border:none !important;
+  background-color: #1e90ff;
+  border: none !important;
   border-radius: 3px;
   text-decoration: none;
   transition: 0.5s;
   outline: none !important;
   cursor: pointer;
   color: #fff !important;
-box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24) !important;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24) !important;
 }
-.myBtnBlue:hover{
-   text-decoration: none;
- color: #fff !important;
-      box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24) !important;
-
+.myBtnBlue:hover {
+  text-decoration: none;
+  color: #fff !important;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24) !important;
 }
-.myBtnRed{
-  padding:5px 10px;
+.myBtnRed {
+  padding: 5px 10px;
   font-size: 16px;
   display: inline-table;
   background-color: crimson;
-  border:none !important;
+  border: none !important;
   border-radius: 3px;
   text-decoration: none;
   transition: 0.5s;
   outline: none !important;
   cursor: pointer;
   color: #fff !important;
-box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24) !important;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24) !important;
 }
-.myBtnRed:hover{
-   text-decoration: none;
- color: #fff !important;
-      box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24) !important;
-
+.myBtnRed:hover {
+  text-decoration: none;
+  color: #fff !important;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24) !important;
 }
 
 @media only screen and (max-width: 576px) {
-  .fa-user{
+  .fa-user {
     margin-left: 3px;
   }
-  .myBtnBlue, .myBtnRed{
+  .myBtnBlue,
+  .myBtnRed {
     font-size: 14px;
   }
-  /* .ubuntu{
-    font-weight: 400 !important;
-  } */
-  /* #about p{
-    font-size: 1rem;
-  } */
-  #contact p{
+  #contact p {
     font-size: 0.9rem;
-  } 
+  }
   .jumbotron {
     padding: 1rem 1rem;
   }
 }
 
-p{
+p {
   font-size: 1.1rem;
   color: dimgray;
 }
-.jumbotron{
+.jumbotron {
   margin-bottom: 20px;
 }
-.icons{
+.icons {
   display: flex;
   justify-content: center;
 }
-.icons a{
+.icons a {
   padding: 15px;
   background-color: #2d2d2d;
   border-radius: 50%;
   margin: 0 10px;
 }
-.icons a i{
+.icons a i {
   width: 48px;
   height: 48px;
   text-align: center;
   color: #fff;
   transition: 0.3s;
 }
-.icons a i:hover{
+.icons a i:hover {
   color: rgb(29, 133, 236);
 }
-@media (min-width: 576px){
-.jumbotron {
+@media (min-width: 576px) {
+  .jumbotron {
     padding: 2rem 2rem;
-}
+  }
 }
